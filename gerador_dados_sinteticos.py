@@ -1,14 +1,21 @@
+import pdb
 import random
+from numpy.ma import add
 import pynoddy
 import pynoddy.history
 import pynoddy.events
 import pynoddy.output
 import matplotlib.pyplot as plt
+import numpy as np
+from scipy import signal
 
-history = 'simple_model.his'
-output_name = 'simple_out'
+HISTORY = 'simple_model.his'
+OUTPUT_NAME = 'simple_out'
 
-dicionario_feicoes = {
+MIN_THICKNESS = 100
+MAX_THICKNESS = 500
+
+DICT_FACIES = {
     'fault': [
         'fault', 'rigid deformation known or fault', 'structural discontinuity', 'tectonic fault', 
         'tectonic deformation', 'geologic rigid deformation', 'structural deformation',
@@ -34,75 +41,123 @@ dicionario_feicoes = {
     'prepositions': ['of', 'with']
 }
 
+class Layer:
+    def __init__(self, thickness, density, vp):
+        self.thickness = thickness
+        self.density = density
+        self.vp = vp
+
+    def __repr__(self):
+        return (f"\nThickness: {self.thickness}\n" +
+                f"Density: {self.density}\n" +
+                f"Velocity: {self.vp}")
+
+# Randomly sample lithology values for each layer: sand, shale, silt, or limestone
+def generate_layer():
+    thickness = random.randint(MIN_THICKNESS, MAX_THICKNESS)
+    # Then, randomly sample lithology values for each layer:
+    # sand, shale, silt, or limestone, where every lithology
+    # has a deterministically assigned velocity (VP) and density.
+    return Layer(thickness, density=1, vp=1)
+
 def selecionar_legenda(feicao):
-    possiveis_legendas = dicionario_feicoes[feicao]
+    possiveis_legendas = DICT_FACIES[feicao]
 
     return random.choice(possiveis_legendas)
 
-eventos = []
+########################################################
+def add_gaussian_noise(synth_seismic_image, mean=0, std=1):
+    noise = np.random.normal(mean, std, size=synth_seismic_image.shape)
+    return synth_seismic_image + noise
 
-nm = pynoddy.history.NoddyHistory()
-num_layers = random.randint(30, 50)
-strati_options = {'num_layers' : num_layers,
-                  'layer_names' : [f'layer_{i+1}' for i in range(num_layers)],
-                  'layer_thickness' : [random.randint(100, 500) for _ in range(num_layers)]}
-nm.add_event('stratigraphy', strati_options )
- 
+########################################################
 
-# The following options define the fault geometry:
-fault_options = {'name' : 'Fault_W',
-                 'pos' : (4000, 3500, 5000),
-                 'dip_dir' : random.randint(90, 270),
-                 'dip' : 60,
-                 'slip' : 1000}
+def generate_fault(name):
+    x = np.random.normal(5000, 2000)
+    y =  np.random.normal(5000, 2000)
+    z =  np.random.normal(2500, 500)
 
-nm.add_event('fault', fault_options)
-eventos.append('fault')
+    type_fault = "normal" if random.randint(0,1) > 0 else "reverse"
+    # The following options define the fault geometry:
+    fault_options = {'name' : name,
+                     'type': type_fault,
+                     'pos' : (x, y, z),
+                     'dip_dir' : random.randint(90, 270),
+                     'dip' : random.randint(45, 70),
+                     'displacement' : random.randint(1000, 2500),
+                     'slip' : random.randint(1000, 2500),
+                     }
 
-seismic_options = {'frequency': 'low'}
-#nm.add_event('seismic', seismic_options)
+    nm.add_event('fault', fault_options)
 
+########################################################
 
-# The following options define the fault geometry:
-#fault_options = {'name' : 'Fault_E',
-#                 'pos' : (6000, 3500, 5000),
-#                 'dip_dir' : 270,
-#                 'dip' : 60,
-#                 'slip' : 1000}
+def generate_fold(name):
+    x = np.random.normal(5000, 2000)
+    y =  np.random.normal(5000, 2000)
+    z =  np.random.normal(2500, 500)
 
-#nm.add_event('fault', fault_options)
-#eventos.append('fault')
+    fold_options = {
+        'name': name,
+        'pos': (x, y, z),
+        #'dip': 100,
+        #'dip_dir': 100,
+        'amplitude': random.randint(300, 700),
+        'wavelength': random.randint(4000, 5500),
+        'plunge_direction': 90,
+        'plunge': np.random.normal(15, 10),
+    }
+    nm.add_event('fold', fold_options)
 
-fold_options = {
-    'name': 'Fold_1',
-    'type':'normal',
-    'pos': (random.randint(2000, 5000), random.randint(2000, 5000), random.randint(500, 2500)),
-    #'dip': 100,
-    #'dip_dir': 100,
-    'wavelength': random.randint(4000,5500),
-    'amplitude': random.randint(300,700),
-    'plunge_direction': 90
-}
-nm.add_event('fold', fold_options)
-eventos.append('fold')
+#####################################################
+def ricker_convolve(seismic_image, wavelet_length=50, wavelet_param=0.1):
+    wavelet = signal.ricker(wavelet_length, wavelet_param)
+    wavelet = np.reshape(wavelet, (5,10))
+    # __import__('pdb').set_trace()
+    ricker_seismic = signal.convolve2d(seismic_image, wavelet, mode='same', boundary='symm')
+    return ricker_seismic
 
-nm.write_history(history)
-pynoddy.compute_model(history, output_name)
+#####################################################
+N_IMAGES = 10
 
-nout = pynoddy.output.NoddyOutput(output_name)
-slice_output = nout.block[:, 0, :]
+for _ in range(N_IMAGES):
+    eventos = []
 
-legenda = f"{selecionar_legenda('casual')} a {selecionar_legenda('seismic')} "
+    nm = pynoddy.history.NoddyHistory()
+    num_layers = random.randint(30, 50)
+    strati_options = {'num_layers' : num_layers,
+                      'layer_names' : [f'Layer {i+1}' for i in range(num_layers)],
+                      'layer_thickness' : [random.randint(100, 500) for _ in range(num_layers)]}
+    nm.add_event('stratigraphy', strati_options )
 
-for evento in eventos:
+    generate_fault('Fault_1')
+    eventos.append('fault')
 
-    legenda += f"{selecionar_legenda('prepositions')} a {selecionar_legenda(evento)} "
+    generate_fold("Fold_1")
+    eventos.append('fold')
 
-print(legenda)
-plt.imshow(slice_output.T[::-1], cmap='gray')
-plt.title(legenda)
+    nm.write_history(HISTORY)
+    pynoddy.compute_model(HISTORY, OUTPUT_NAME)
 
-plt.show()
+    nout = pynoddy.output.NoddyOutput(OUTPUT_NAME)
+    slice_output = nout.block[:, 0, :]
+
+    #####################################################
+    legenda = f"{selecionar_legenda('casual')} a {selecionar_legenda('seismic')} "
+
+    for evento in eventos:
+
+        legenda += f"{selecionar_legenda('prepositions')} a {selecionar_legenda(evento)} "
+
+    print(legenda)
+
+    synth_seismic_image = slice_output.T[::-1]
+    synth_seismic_image = add_gaussian_noise(synth_seismic_image)
+    synth_seismic_image = ricker_convolve(synth_seismic_image)
+    plt.imshow(synth_seismic_image, cmap='gray')
+    plt.title(legenda)
+
+    plt.show()
 #nout.plot_section('y', layer_labels = strati_options['layer_names'][::-1],
 #                  colorbar = True, title = '',
 #                  savefig = False, fig_filename = 'ex01_fault_E.eps')
