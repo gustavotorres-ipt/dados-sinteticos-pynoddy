@@ -1,4 +1,3 @@
-import pdb
 import random
 import pynoddy
 import pynoddy.history

@@ -1,14 +1,8 @@
-import pdb
 import random
 import pynoddy
 import pynoddy.history
-import pynoddy.events
 import pynoddy.output
-import matplotlib.pyplot as plt
 import numpy as np
-from scipy import signal
-from IPython.core.display import HTML
-from importlib import reload
 
 
 POSSIBLE_DENSITIES = [2.7, 2.3, 4.0, 3.5]
@@ -38,7 +32,6 @@ class SyntheticModel:
         self.num_layers = random.randint(Parameters.MIN_LAYERS, Parameters.MAX_LAYERS)
         self.nm = pynoddy.history.NoddyHistory()
 
-        Parameters.num_layers = random.randint(Parameters.MIN_LAYERS, Parameters.MAX_LAYERS)
         self.layers = [self.generate_layer() for _ in range(self.num_layers)]
 
         self.generate_stratigraphy()
@@ -49,7 +42,6 @@ class SyntheticModel:
         nout = self.save_events_file(history_file, output_file)
 
         self.synthetic_image = self.get_synthetic_image(nout)
-        # __import__('pdb').set_trace()
 
 
     # Randomly sample lithology values for each layer: sand, shale, silt, or limestone
@@ -110,21 +102,21 @@ class SyntheticModel:
     def add_events(self):
         self.events = []
 
-        #generate_fold("Fold_1", nm)
-        #events.append('fold')
-
         self.generate_fault('Fault_1')
         self.events.append('fault')
 
+        self.generate_fold('Fold_1')
+        self.events.append('fold')
+
         if not self.events:
-            self.event.append('layer_cake')
+            self.events.append('layer_cake')
 
 
     def save_events_file(self, history_file, output_file):
         self.nm.write_history(history_file)
 
-        nm = pynoddy.history.NoddyHistory(history_file)
-        nm.write_history(history_file)
+        self.nm = pynoddy.history.NoddyHistory(history_file)
+        self.nm.write_history(history_file)
 
         pynoddy.compute_model(history_file, output_file)
 
