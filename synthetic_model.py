@@ -4,8 +4,14 @@ import pynoddy.history
 import pynoddy.output
 import numpy as np
 
-
-POSSIBLE_DENSITIES = [2.7, 2.3, 4.0, 3.5]
+# https://wiki.seg.org/wiki/Velocities_in_limestone_and_sandstone
+# https://wiki.seg.org/wiki/Porosities%252C_velocities%252C_and_densities_of_rocks
+ROCK_INFORMATION = {
+    'sand': {'velocity': (1.8, 6.8), 'density': (2.0, 2.6)},
+    'limestone': {'velocity': (2.6, 6.8), 'density': (2.2, 2.75)},
+    'shale': {'velocity': (1.4, 6.8), 'density': (1.9, 2.7)},
+}
+# POSSIBLE_DENSITIES = [2.7, 2.3, 4.0, 3.5]
 
 class Parameters:
     MIN_THICKNESS = 100
@@ -15,15 +21,15 @@ class Parameters:
     MAX_LAYERS = 50
 
 class Layer:
-    def __init__(self, thickness, density, vp):
+    def __init__(self, thickness, density, velocity):
         self.thickness = thickness
         self.density = density
-        self.vp = vp
+        self.velocity = velocity
 
     def __repr__(self):
         return (f"\nThickness: {self.thickness}\n" +
                 f"Density: {self.density}\n" +
-                f"Velocity: {self.vp}")
+                f"Velocity: {self.velocity}")
 
 class SyntheticModel:
 
@@ -50,10 +56,17 @@ class SyntheticModel:
 
         # sand, shale, silt, or limestone, where every lithology
         # has a deterministically assigned velocity (VP) and density.
-        density = random.choice(POSSIBLE_DENSITIES)
-        vp = 1
+        possible_rocks = list(ROCK_INFORMATION.keys())
+        selected_rock = random.choice(possible_rocks)
+        min_velocity = ROCK_INFORMATION[selected_rock]['velocity'][0]
+        max_velocity = ROCK_INFORMATION[selected_rock]['velocity'][1]
+        min_density = ROCK_INFORMATION[selected_rock]['density'][0]
+        max_density = ROCK_INFORMATION[selected_rock]['density'][1]
 
-        return Layer(thickness, density=density, vp=vp)
+        velocity = random.uniform(min_velocity, max_velocity)
+        density = random.uniform(min_density, max_density)
+
+        return Layer(thickness, density=density, velocity=velocity)
 
     def generate_stratigraphy(self):
         strati_options = {'num_layers' : self.num_layers,
@@ -123,6 +136,19 @@ class SyntheticModel:
         nout = pynoddy.output.NoddyOutput(output_file)
 
         return nout
+    
+    def calc_reflection_coefficient(self, idx_layer_1, idx_layer_2):
+        idx_layer_1 = idx_layer_1 % self.num_layers
+        idx_layer_2 = idx_layer_2 % self.num_layers
+
+        vp1 = self.layers[idx_layer_1].velocity
+        d1 = self.layers[idx_layer_1].density
+        vp2 = self.layers[idx_layer_2].velocity
+        d2 = self.layers[idx_layer_2].density
+
+        rc = (vp1 * d1 - vp2 * d2) / (vp1 * d1 + vp2 * d2)
+        return rc
+
 
     def get_synthetic_image(self, nout):
         return nout.block[:, 0, :].T[::-1]

@@ -47,10 +47,13 @@ class SeismicTransformer:
 
     def recolor_image_reflection(self, synthetic_image):
         output_image = np.copy(synthetic_image)
+        n_layers = self.synthetic_model.num_layers
 
         dict_colors = {
-            int(px): random.choice([2.7, 2.3, 4.0, 3.5])
-            for px in np.unique(synthetic_image)
+            int(px): self.synthetic_model.calc_reflection_coefficient(
+                (n_layers - layer), (n_layers - layer - 1)) # index of layer 1 and index of layer 2
+            # int(px): random.choice([2.7, 2.3, 4.0, 3.5])
+            for layer, px in enumerate(np.unique(synthetic_image))
         }
 
         for px in np.unique(synthetic_image):
