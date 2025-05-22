@@ -115,8 +115,8 @@ class SyntheticModel:
     def save_events_file(self, history_file, output_file):
         self.nm.write_history(history_file)
 
-        self.nm = pynoddy.history.NoddyHistory(history_file)
-        self.nm.write_history(history_file)
+        #self.nm = pynoddy.history.NoddyHistory(history_file)
+        #self.nm.write_history(history_file)
 
         pynoddy.compute_model(history_file, output_file)
 

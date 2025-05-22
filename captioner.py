@@ -22,7 +22,12 @@ DICT_EVENTS = {
         'we see here', 'this image represents', 'we observe here',
         'this image demonstrates', 'this model depicts'
     ],
-    'layer_cake': ['layer cake'],
+    'layer_cake': [
+        'layer-cake model', 'flat bed stratigraphy section', 'section with flat horizons',
+        'undeformed section', 'layer-cake stratigraphy section', 
+        'model with no structural deformation', 'model with no tectonic deformation', 
+        'layer-cake structural model'
+    ],
     'prepositions': ['of', 'with'],
 }
 
@@ -46,8 +51,11 @@ class Captioner:
         caption = f"{self.select_caption('casual')} a {self.select_caption('seismic')} "
 
         for event in self.synthetic_model.events:
+            preposition = self.select_caption('prepositions')
+            name_event = self.select_caption(event)
+            article = 'an' if name_event[0].lower() in 'aeiou' else 'a'
 
-            caption += f"{self.select_caption('prepositions')} a {self.select_caption(event)} "
+            caption += f"{preposition} {article} {name_event} "
 
         return caption
 
