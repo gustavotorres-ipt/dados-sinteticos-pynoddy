@@ -18,7 +18,15 @@ DICT_EVENTS = {
         'fold', 'anticline', 'ductile deformation', 'folded deformation',
         'tectonic compression', 'antiform', 'structural compression',
     ],
+    'tilt': [
+        'tilt', 'tectonic tilting', 'subsurface layer rotation',
+        'inclined horizontal beds', 'tilted horizontal beds'
+    ],
 
+    'unconformity': [
+        'unconformity', 'disconformity', 'angular unconformity', 
+        'nonconformity', 'erosional unconformity'
+    ],
     'casual': [
         'we see here', 'this image represents', 'we observe here',
         'this image demonstrates', 'this model depicts',

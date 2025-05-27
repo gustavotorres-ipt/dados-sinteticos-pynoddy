@@ -45,6 +45,10 @@ class SyntheticModel:
 
         history_file = 'simple_model.his'
         output_file = 'simple_out'
+        #nout = self.save_events_file(history_file, output_file)
+
+        self.nm.change_cube_size(39)
+
         nout = self.save_events_file(history_file, output_file)
 
         self.synthetic_image = self.get_synthetic_image(nout)
@@ -95,6 +99,39 @@ class SyntheticModel:
 
         self.nm.add_event('fault', fault_options)
 
+    def generate_tilt(self, name):
+        # x (5000,2000) y (5000, 2000) z (2500, 500)
+        # rotation N(5, 3)
+        # plunge_direction U(0, 180)
+        # plunge N(3,2)
+        x = np.random.normal(5000, 2000)
+        y =  np.random.normal(5000, 2000)
+        z =  np.random.normal(2500, 500)
+
+        tilt_options = {'name' : name,
+                        'pos' : (x, y, z),
+                        'rotation': np.random.normal(5, 3),
+                        'plunge_direction': random.randint(0, 180),
+                        'plunge': np.random.normal(3, 2),
+                        }
+        self.nm.add_event('tilt', tilt_options)
+
+    def generate_unconformity(self, name):
+        x = np.random.normal(5000, 2000)
+        y = np.random.normal(5000, 2000)
+        z = np.random.normal(4000, 600)
+        num_layers = random.randint(10, 30)
+        unconformity_options = {
+            'name': name,
+            'pos': (x, y, z),
+            'num_layers': num_layers,
+            'layer_names' : [f'Layer {i+1}' for i in range(num_layers)],               
+            'layer_thickness': [random.randint(50, 200) for _ in range(num_layers)],
+            'dip': np.random.normal(5, 3),
+            'dip_direction' : random.randint(90, 270),
+        }
+        self.nm.add_event('unconformity', unconformity_options)
+
     def generate_fold(self, name):
         x = np.random.normal(5000, 2000)
         y = np.random.normal(5000, 2000)
@@ -113,11 +150,18 @@ class SyntheticModel:
     def add_events(self):
         self.events = []
 
-        self.generate_fault('Fault_1')
-        self.events.append('fault')
+        #self.generate_unconformity('Unconformity_1')
+        #self.events.append('unconformity')
+
+        #self.generate_fault('Fault_1')
+        #self.events.append('fault')
 
         self.generate_fold('Fold_1')
         self.events.append('fold')
+
+        #self.generate_tilt('Tilt_1')
+        #self.events.append('tilt')
+
 
         if not self.events:
             self.events.append('layer_cake')
