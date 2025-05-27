@@ -25,17 +25,21 @@ def plot_image(image, title=None):
 
 
 if __name__ == "__main__":
-    for _ in range(10):
+    n_images = 200
+   
+    for _ in range(n_images):
         reload(pynoddy.history)
         reload(pynoddy.events)
         reload(pynoddy)
 
         sm = SyntheticModel()
-        # sm.plot_synthetic_image()
         st = SeismicTransformer(sm)
         st.transform_image()
 
-        captioner = Captioner(sm)
+        # Generate 2 to 7  images
+        captioner = Captioner(sm, n_captions=random.randint(2, 7))
         captioner.generate_captions()
 
-        plot_image(st.synthetic_image, title=captioner.captions[0])
+        st.save_image()
+        captioner.save_captions(f"{st.base_filename}.txt")
+        # plot_image(st.synthetic_image, title=captioner.captions[0])

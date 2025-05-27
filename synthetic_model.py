@@ -97,14 +97,12 @@ class SyntheticModel:
 
     def generate_fold(self, name):
         x = np.random.normal(5000, 2000)
-        y =  np.random.normal(5000, 2000)
-        z =  np.random.normal(2500, 500)
+        y = np.random.normal(5000, 2000)
+        z = np.random.normal(2500, 500)
 
         fold_options = {
             'name': name,
             'pos': (x, y, z),
-            #'dip': 100,
-            #'dip_dir': 100,
             'amplitude': random.randint(300, 700),
             'wavelength': random.randint(4000, 5500),
             'plunge_direction': 90,
