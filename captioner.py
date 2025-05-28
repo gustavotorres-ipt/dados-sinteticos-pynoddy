@@ -9,9 +9,9 @@ DICT_EVENTS = {
     ],
 
     'seismic': [
-        'geological section', 'geosection', 'geological image', 
-        'subsurface model', 'model', 'section', '2D section', '2D subsurface model',
-        'subsurface representation', 'geomodel', '2D geomodel',
+        'sesimic section', 'seismic image', 'subsurface model', 'model',
+        'section', '2D section', '2D subsurface model',
+        'subsurface representation', # 'geomodel', '2D geomodel',
     ],
 
     'fold': [
@@ -24,7 +24,7 @@ DICT_EVENTS = {
     ],
 
     'unconformity': [
-        'unconformity', 'disconformity', 'angular unconformity', 
+        'unconformity', 'disconformity', 'angular unconformity',
         'nonconformity', 'erosional unconformity'
     ],
     'casual': [
@@ -42,8 +42,9 @@ DICT_EVENTS = {
 
 
 class Captioner:
-    def __init__(self, synthetic_model, n_captions = 2):
-        self.synthetic_model = synthetic_model
+    def __init__(self, synthetic_model, seismic_transformer, n_captions = 2):
+        self.geological_model = synthetic_model
+        self.seismic_model = seismic_transformer
         self.n_captions = n_captions
 
         self.captions = []
@@ -54,24 +55,43 @@ class Captioner:
         return random.choice(possible_captions)
 
 
-    def create_caption(self):
-        assert(hasattr(self.synthetic_model, "events")), \
+    def create_caption(self, add_events_info=True, add_freq_noise_info=True):
+        assert(hasattr(self.geological_model, "events")), \
             "Error: Synthetic Model does not contain any event."
 
         caption = f"{self.select_caption('casual')} a {self.select_caption('seismic')} "
 
-        for event in self.synthetic_model.events:
+        if add_events_info:
+            # Shuffle events in random order to increase variability
+            events = self.geological_model.events.copy()
+            random.shuffle(events)
+
+            for event in self.geological_model.events:
+                preposition = self.select_caption('prepositions')
+                name_event = self.select_caption(event)
+                article = 'an' if name_event[0].lower() in 'aeiou' else 'a'
+
+                caption += f"{preposition} {article} {name_event} "
+
+        if add_freq_noise_info:
+            frequency_level = self.seismic_model.freq_level
+            noise_level = self.seismic_model.noise_level
+
             preposition = self.select_caption('prepositions')
-            name_event = self.select_caption(event)
-            article = 'an' if name_event[0].lower() in 'aeiou' else 'a'
 
-            caption += f"{preposition} {article} {name_event} "
+            caption += f"{preposition} {frequency_level} frequency and {noise_level} noise"
 
-        return caption
+        return f'{caption.strip()}.'
 
     def generate_captions(self):
         for _ in range(self.n_captions):
-            caption = self.create_caption()
+            add_events_info = bool(random.randint(0, 1))
+            add_freq_noise_info = bool(random.randint(0, 1))
+
+            if not(add_events_info) and not(add_freq_noise_info):
+                add_events_info = True
+
+            caption = self.create_caption(add_events_info, add_freq_noise_info)
             self.captions.append(caption)
 
     def save_captions(self, filename):
@@ -83,6 +103,6 @@ class Captioner:
 
         for caption in self.captions:
             print(caption, file=f)
-        
+
         f.close()
         print(filename, "saved successfully")
