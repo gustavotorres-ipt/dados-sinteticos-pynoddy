@@ -1,0 +1,4 @@
+this image represents a subsurface representation of a tectonic compression 
+this model depicts a 2D geomodel with a ductile deformation 
+this image represents a 2D geomodel of a ductile deformation 
+this image demonstrates a 2D section with a folded deformation 

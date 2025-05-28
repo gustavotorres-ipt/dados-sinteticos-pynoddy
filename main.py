@@ -1,12 +1,11 @@
-import pdb
 import random
 import pynoddy
 import pynoddy.history
 import pynoddy.events
-import pynoddy.output
+# import pynoddy.output
 import matplotlib.pyplot as plt
-import numpy as np
-from scipy import signal
+# import numpy as np
+# from scipy import signal
 from IPython.core.display import HTML
 from importlib import reload
 from captioner import Captioner
@@ -26,7 +25,7 @@ def plot_image(image, title=None):
 
 if __name__ == "__main__":
     n_images = 200
-   
+
     for _ in range(n_images):
         reload(pynoddy.history)
         reload(pynoddy.events)

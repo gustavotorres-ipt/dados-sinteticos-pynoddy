@@ -11,7 +11,6 @@ ROCK_INFORMATION = {
     'limestone': {'velocity': (2.6, 6.8), 'density': (2.2, 2.75)},
     'shale': {'velocity': (1.4, 6.8), 'density': (1.9, 2.7)},
 }
-# POSSIBLE_DENSITIES = [2.7, 2.3, 4.0, 3.5]
 
 class Parameters:
     MIN_THICKNESS = 100
@@ -125,7 +124,7 @@ class SyntheticModel:
             'name': name,
             'pos': (x, y, z),
             'num_layers': num_layers,
-            'layer_names' : [f'Layer {i+1}' for i in range(num_layers)],               
+            'layer_names' : [f'Layer {i+1}' for i in range(num_layers)],
             'layer_thickness': [random.randint(50, 200) for _ in range(num_layers)],
             'dip': np.random.normal(5, 3),
             'dip_direction' : random.randint(90, 270),
@@ -170,15 +169,15 @@ class SyntheticModel:
     def save_events_file(self, history_file, output_file):
         self.nm.write_history(history_file)
 
-        #self.nm = pynoddy.history.NoddyHistory(history_file)
-        #self.nm.write_history(history_file)
+        self.nm = pynoddy.history.NoddyHistory(history_file)
+        self.nm.write_history(history_file)
 
         pynoddy.compute_model(history_file, output_file)
 
         nout = pynoddy.output.NoddyOutput(output_file)
 
         return nout
-    
+
     def calc_reflection_coefficient(self, idx_layer_1, idx_layer_2):
         idx_layer_1 = idx_layer_1 % self.num_layers
         idx_layer_2 = idx_layer_2 % self.num_layers

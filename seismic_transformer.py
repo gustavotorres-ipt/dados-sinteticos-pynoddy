@@ -15,9 +15,15 @@ from PIL import Image
 
 
 class SeismicTransformer:
-    def __init__(self, synthetic_model, freq=30, noise=0.2):
+    def __init__(self, synthetic_model, freq=0.0, noise=0.0):
         self.synthetic_model = synthetic_model
         self.synthetic_image = self.synthetic_model.synthetic_image
+
+        if freq <= 0:
+            freq = random.uniform(10, 60)
+
+        if noise <= 0:
+            noise = random.random() * 0.5
 
         self.freq = freq
         self.noise = noise
@@ -71,7 +77,7 @@ class SeismicTransformer:
             # int(px): random.choice([2.7, 2.3, 4.0, 3.5])
             for layer, px in enumerate(np.unique(synthetic_image))
         }
- 
+
         for px in np.unique(synthetic_image):
             idx_replace = np.where(synthetic_image == px)
             output_image[idx_replace] = dict_colors[px]
@@ -96,7 +102,7 @@ class SeismicTransformer:
 
         image_output = Image.fromarray(normalized_image, 'L')
         return image_output
-    
+
     def get_filename(self):
         events = set(self.synthetic_model.events)
         events = sorted(list(events))
@@ -107,12 +113,11 @@ class SeismicTransformer:
         filename += f"_{dt.year}-{dt.month:02}-{dt.day:02}_" + \
                     f"{dt.hour:02}-{dt.minute:02}-{dt.microsecond}"
         return filename
-        
 
     def save_image(self):
         dir_images = "images"
         os.makedirs(dir_images, exist_ok=True)
-        
+
         image_png = self.convert_array_to_image(self.synthetic_image)
 
         fullpath = os.path.join(dir_images, f"{self.base_filename}.png")
