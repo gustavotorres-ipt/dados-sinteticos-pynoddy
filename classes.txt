@@ -1,0 +1,28 @@
+Fold low frequency, high noise
+Fold low frequency, low noise
+Fold high frequency, high noise
+Fold high frequency, low noise
+Tilt low frequency, high noise
+Tilt low frequency, low noise
+Tilt high frequency, high noise
+Tilt high frequency, low noise
+Flat low frequency, high noise
+Flat low frequency, low noise
+Flat high frequency, high noise
+Flat high frequency, low noise
+Normal fault dipping west low frequency, high noise
+Normal fault dipping west low frequency, low noise
+Normal fault dipping west high frequency, high noise
+Normal fault dipping west high frequency, low noise
+Normal fault dipping east low frequency, high noise
+Normal fault dipping east low frequency, low noise
+Normal fault dipping east high frequency, high noise
+Normal fault dipping east high frequency, low noise
+Reverse fault dipping west low frequency, high noise
+Reverse fault dipping west low frequency, low noise
+Reverse fault dipping west high frequency, high noise
+Reverse fault dipping west high frequency, low noise
+Reverse fault dipping east low frequency, high noise
+Reverse fault dipping east low frequency, low noise
+Reverse fault dipping east high frequency, high noise
+Reverse fault dipping east high frequency, low noise

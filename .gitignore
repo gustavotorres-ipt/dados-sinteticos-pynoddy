@@ -2,3 +2,5 @@ noddy
 noddy.exe
 .vim/
 __pycache__
+simple_out.*
+simple_model.*

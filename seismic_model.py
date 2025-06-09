@@ -4,7 +4,14 @@ import numpy as np
 from scipy import signal
 from datetime import datetime
 from PIL import Image
+import matplotlib.pyplot as plt
 
+def plot_image(image, title=None):
+    plt.imshow(image, cmap='gray')
+    if title is not None:
+        plt.title(title)
+    plt.show()
+    plt.close()
 
 class SeismicModel:
     def __init__(self, synthetic_model, freq=0.0, noise=0.0):
@@ -12,24 +19,20 @@ class SeismicModel:
         self.synthetic_image = self.geological_model.synthetic_image
 
         if freq <= 0:
-            freq = random.uniform(10, 60)
+            freq = random.uniform(10, 50)
 
         if noise <= 0:
-            noise = random.random() * 0.5
+            noise = random.random() * 0.4
 
         self.freq = freq
         self.noise = noise
 
-        if freq > 20 and freq < 40:
-            self.freq_level = "medium"
-        elif freq >= 40:
+        if freq >= 30:
             self.freq_level = "high"
         else:
             self.freq_level = "low"
 
-        if noise > 0.1 and noise < 0.4:
-            self.noise_level = "medium"
-        elif noise >= 0.4:
+        if noise >= 0.2:
             self.noise_level = "high"
         else:
             self.noise_level = "low"
@@ -81,7 +84,11 @@ class SeismicModel:
         synthetic_image = self.synthetic_image
 
         synthetic_image = self.recolor_image_reflection(synthetic_image)
+        # plot_image(synthetic_image)
+
         synthetic_image = self.add_gaussian_noise(synthetic_image, std=self.noise)
+
+        #plot_image(synthetic_image)
         synthetic_image = self.ricker_convolve(synthetic_image, freq=self.freq)
 
         self.synthetic_image = synthetic_image
@@ -96,7 +103,7 @@ class SeismicModel:
         return image_output
 
     def get_filename(self):
-        events = set(self.geological_model.events)
+        events = set([event.event_type for event in self.geological_model.events])
         events = sorted(list(events))
         filename = "_".join(events)
 
