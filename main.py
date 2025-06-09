@@ -27,7 +27,6 @@ def random_event():
 
     return event_occurrence
 
-
 def plot_image(image, title=None):
     plt.imshow(image, cmap='gray')
     if title is not None:
@@ -36,7 +35,7 @@ def plot_image(image, title=None):
     plt.close()
 
 def generate_seismic_images(plot):
-    n_images = 1000
+    n_images = 100
 
     for i in range(n_images):
         reload(pynoddy.history)
@@ -45,8 +44,8 @@ def generate_seismic_images(plot):
 
         events = random_event()
 
-        gm = GeologicalModel(True)
-        # gm = GeologicalModel(events['fault'], events['fold'], events['tilt'])
+        # gm = GeologicalModel(True)
+        gm = GeologicalModel(events['fault'], events['fold'], events['tilt'])
 
         # np.save(f"volume_{i}.npy", gm.synthetic_volume)
         # plot_image(gm.synthetic_image)
@@ -55,10 +54,10 @@ def generate_seismic_images(plot):
 
         # Generate 2 to 7 captions
         captioner = Captioner(gm, sm, n_captions=random.randint(2, 7))
-        captioner.generate_captions()
+        captioner.generate_captions_and_labels()
 
         sm.save_image()
-        captioner.save_captions(f"{sm.base_filename}.txt")
+        captioner.save_captions_and_labels(f"{sm.base_filename}.json")
 
         if plot:
             plot_image(sm.synthetic_image, title=random.choice(captioner.captions))

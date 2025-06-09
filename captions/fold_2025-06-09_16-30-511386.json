@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a section. It has a tectonic compression. It has high frequency and high noise.",
+        "we see here a subsurface representation. It is a tectonic compression. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

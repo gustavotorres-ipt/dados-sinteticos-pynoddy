@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D subsurface model of an antiform. It is low frequency and low noise.",
+        "this image represents a seismic model. It has a structural compression."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

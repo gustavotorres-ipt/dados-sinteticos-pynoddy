@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a section of a geologic rigid deformation dipping right.",
+        "this image demonstrates a seismic image. It is a fault dipping right with low frequency and low noise.",
+        "this image represents a 2D seismic model of a rigid deformation known or fault."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

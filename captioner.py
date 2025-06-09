@@ -1,5 +1,6 @@
 import random
 import os
+import json
 
 DICT_EVENTS = {
     'fault': [
@@ -53,16 +54,33 @@ class Captioner:
         self.n_captions = n_captions
 
         self.captions = []
+        self.labels = []
 
     def select_caption(self, event):
         possible_captions = DICT_EVENTS[event]
 
         return random.choice(possible_captions)
 
-    # def generate_label(self, event):
-    #     """TODO: generate label
+    def get_labels(self):
+        labels = []
 
-    #     pass
+        freq_level = self.seismic_model.freq_level
+        noise_level = self.seismic_model.noise_level
+
+        for event in self.geological_model.events:
+            event_type = event.event_type
+
+            if "fault" in event_type:
+
+                if event.options['dip_dir'] > 180:
+                    detailed_fault = f'{event_type}_dipping_west'
+                else:
+                    detailed_fault = f'{event_type}_dipping_east'
+
+                event_type = detailed_fault
+
+            labels.append(f'{event_type}_{freq_level}_frequency_{noise_level}_noise')
+        return labels
 
     def add_fault_direction(self, caption, fault_event):
         # 50% of chance of nothing being added.
@@ -115,22 +133,25 @@ class Captioner:
         caption += f"{preposition} {frequency_level} frequency and {noise_level} noise"
         return caption
 
-    def generate_captions(self):
+    def generate_captions_and_labels(self):
         for _ in range(self.n_captions):
             caption = self.create_caption()
-            # label = self.get_label()
-
             self.captions.append(caption)
 
-    def save_captions(self, filename):
+        self.labels = self.get_labels()
+
+
+    def save_captions_and_labels(self, filename):
         dir_captions = "captions"
         os.makedirs(dir_captions, exist_ok=True)
 
+        dict_captions = {
+            'captions': self.captions,
+            'labels': self.labels
+        }
+
         path_caption_file = os.path.join(dir_captions, filename)
-        f = open(path_caption_file, 'w')
+        with open(path_caption_file, 'w') as fout:
+            json.dump(dict_captions, fout, indent=4)
 
-        for caption in self.captions:
-            print(caption, file=f)
-
-        f.close()
         print(filename, "saved successfully.")

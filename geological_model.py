@@ -51,10 +51,13 @@ class GeologicalModel:
         self.num_layers = random.randint(Parameters.MIN_LAYERS, Parameters.MAX_LAYERS)
         self.nm = pynoddy.history.NoddyHistory()
 
+        #self.nm.set_extent(7168, 7168, 7168)
+        #self.nm.set_origin(0, 0, 7084)
+
         # Resize the model to 256 x 256 x 256
-        self.nm.set_extent(7168, 7168, 7168)
-        self.nm.set_origin(0, 0, 7084)
-        self.nm.change_cube_size(28)
+        self.nm.set_extent(10000, 10000, 10000)
+        self.nm.set_origin(0, 0, 10000)
+        self.nm.change_cube_size(39)
 
         self.layers = [self.generate_layer() for _ in range(self.num_layers)]
 

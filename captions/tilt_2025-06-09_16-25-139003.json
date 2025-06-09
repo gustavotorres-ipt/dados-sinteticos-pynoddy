@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a 2D subsurface model with a subsurface layer rotation. It is low frequency and low noise.",
+        "this depicts a section. It is a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

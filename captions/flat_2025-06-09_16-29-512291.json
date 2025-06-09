@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a model. It has a section with flat horizons.",
+        "we see here a model with a flat bed stratigraphy section.",
+        "this image demonstrates a subsurface model with a model with no structural deformation.",
+        "this depicts a section of an undeformed section. It is high frequency and low noise.",
+        "this depicts a model. It is a layer-cake stratigraphy section."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

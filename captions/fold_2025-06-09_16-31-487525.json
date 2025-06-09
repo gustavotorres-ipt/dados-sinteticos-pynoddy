@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D section. It has an anticline of low frequency and high noise.",
+        "this image represents a subsurface model with a tectonic compression with low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

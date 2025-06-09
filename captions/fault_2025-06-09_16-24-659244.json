@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a subsurface representation. It has a tectonic fault with low frequency and high noise.",
+        "this depicts a 2D subsurface model of a fault.",
+        "we observe here a seismic model. It has a tectonic fault.",
+        "we see here a sesimic section of a structural deformation dipping right with low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}
