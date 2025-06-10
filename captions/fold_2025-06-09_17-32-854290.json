@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a model. It is a ductile deformation with high frequency and high noise.",
+        "this depicts a seismic image of a fold of high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

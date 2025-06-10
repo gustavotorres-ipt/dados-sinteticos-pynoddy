@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a model with a compressional tectonics.",
+        "we see here a seismic model with a movement of low frequency and high noise.",
+        "this depicts a sesimic section with a compressional fault.",
+        "this depicts a seismic model. It is a downward tectonic dipping east."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_low_frequency_high_noise"
+    ]
+}

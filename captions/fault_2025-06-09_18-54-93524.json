@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a subsurface model. It has a structural discontinuity. It is low frequency and high noise.",
+        "a sesimic section of a tectonic fault dipping right."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

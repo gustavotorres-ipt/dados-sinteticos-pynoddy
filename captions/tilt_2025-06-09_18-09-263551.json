@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a sesimic section with a tilted horizontal beds.",
+        "this image represents a sesimic section with a subsurface layer rotation."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

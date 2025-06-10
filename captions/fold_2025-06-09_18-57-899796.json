@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "this image demonstrates a 2D seismic model of an antiform of low frequency and low noise.",
+        "this depicts a 2D section of an anticline. It has low frequency and low noise.",
+        "this image demonstrates a section of a ductile deformation.",
+        "this image represents a section with a folded deformation.",
+        "a subsurface representation with a tectonic compression of low frequency and low noise.",
+        "this depicts a seismic image. It has a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

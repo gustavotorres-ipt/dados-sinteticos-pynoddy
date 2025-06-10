@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a seismic model with a layer-cake structural model. It has low frequency and low noise.",
+        "a seismic model with a layer-cake model. It is low frequency and low noise.",
+        "a 2D seismic model of a section with flat horizons."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

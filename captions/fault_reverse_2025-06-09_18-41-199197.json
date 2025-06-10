@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a subsurface model. It has a compressional structural fault. It has low frequency and low noise.",
+        "a section. It is a compressional structural fault."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_low_noise"
+    ]
+}

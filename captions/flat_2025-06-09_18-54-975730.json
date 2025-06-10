@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a model. It has an undeformed section of low frequency and high noise.",
+        "this image represents a seismic model of a section with flat horizons."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

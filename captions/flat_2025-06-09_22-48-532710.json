@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a section of a layer-cake model.",
+        "we see here a 2D section with an undeformed section.",
+        "this depicts a section of a section with flat horizons. It is high frequency and high noise.",
+        "this image demonstrates a model with a layer-cake structural model of high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

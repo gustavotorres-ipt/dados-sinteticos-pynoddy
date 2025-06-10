@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this depicts a 2D seismic model of a tilted horizontal beds.",
+        "a subsurface representation. It is a tilted horizontal beds.",
+        "we see here a subsurface representation. It has a tectonic tilting.",
+        "we see here a 2D section with a tilted horizontal beds. It has low frequency and high noise.",
+        "this image represents a 2D seismic model. It has a tilt.",
+        "this image represents a seismic model. It has a subsurface layer rotation.",
+        "a subsurface representation of a subsurface layer rotation."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

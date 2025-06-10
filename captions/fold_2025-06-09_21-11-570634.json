@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a section. It is a folded deformation.",
+        "a 2D section. It has a fold.",
+        "we observe here a 2D section with a tectonic compression."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

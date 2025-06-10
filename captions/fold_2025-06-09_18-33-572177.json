@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section of a fold.",
+        "this image represents a seismic model of a tectonic compression."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

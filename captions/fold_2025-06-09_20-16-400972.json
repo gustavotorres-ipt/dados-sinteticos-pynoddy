@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a subsurface representation with a folded deformation.",
+        "we see here a model. It has a structural compression.",
+        "this depicts a subsurface representation with a folded deformation of low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

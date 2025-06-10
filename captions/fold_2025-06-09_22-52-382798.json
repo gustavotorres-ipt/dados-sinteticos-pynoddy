@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a 2D seismic model. It has a fold. It has low frequency and low noise.",
+        "a model with an anticline.",
+        "we see here a 2D seismic model. It has a tectonic compression."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

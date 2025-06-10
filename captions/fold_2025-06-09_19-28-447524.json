@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a model of a fold of high frequency and low noise.",
+        "we see here a 2D section of an antiform with high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

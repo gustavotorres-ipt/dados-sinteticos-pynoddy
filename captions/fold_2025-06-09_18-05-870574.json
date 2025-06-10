@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a seismic image. It has an antiform.",
+        "we see here a section. It has an anticline."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

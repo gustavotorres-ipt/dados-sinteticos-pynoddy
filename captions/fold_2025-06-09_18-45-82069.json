@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a seismic model of an antiform. It has low frequency and low noise.",
+        "a subsurface representation of an antiform.",
+        "we see here a seismic image. It is a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

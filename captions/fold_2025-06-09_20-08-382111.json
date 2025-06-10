@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a 2D section. It has a tectonic compression. It is low frequency and high noise.",
+        "this image represents a section. It has a tectonic compression.",
+        "a seismic image with a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

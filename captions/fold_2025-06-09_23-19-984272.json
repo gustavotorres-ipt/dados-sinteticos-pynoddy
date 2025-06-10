@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "this image represents a subsurface representation with a fold of high frequency and low noise.",
+        "a model with a fold.",
+        "this image represents a section of a structural compression.",
+        "a 2D subsurface model with an anticline of high frequency and low noise.",
+        "we observe here a 2D subsurface model with a fold.",
+        "we see here a subsurface representation with a folded deformation."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

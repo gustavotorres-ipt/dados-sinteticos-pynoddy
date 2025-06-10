@@ -55,7 +55,7 @@ class GeologicalModel:
         #self.nm.set_origin(0, 0, 7084)
 
         # Resize the model to 256 x 256 x 256
-        self.nm.set_extent(10000, 10000, 10000)
+        self.nm.set_extent(10000, 7000, 10000)
         self.nm.set_origin(0, 0, 10000)
         self.nm.change_cube_size(39)
 
@@ -97,6 +97,7 @@ class GeologicalModel:
                           'density' : [layer.density for layer in self.layers],
                           }
         self.nm.add_event('stratigraphy', strati_options )
+        #print(strati_options)
 
 
     def add_shift_fault(self):
@@ -113,6 +114,7 @@ class GeologicalModel:
                          }
 
         self.nm.add_event('fault', fault_options)
+        #print(fault_options)
 
     def generate_fault(self, name):
         x = np.random.normal(5000, 2000)
@@ -137,6 +139,7 @@ class GeologicalModel:
                          }
 
         self.nm.add_event('fault', fault_options)
+        #print(fault_options)
         if reverse_fault:
             self.events.append(Event('fault_reverse', fault_options))
         else:
@@ -156,6 +159,7 @@ class GeologicalModel:
             'plunge': np.random.normal(15, 10),
         }
         self.nm.add_event('fold', fold_options)
+        #print(fold_options)
         self.events.append(Event('fold', fold_options))
 
     def generate_tilt(self, name):
@@ -174,6 +178,7 @@ class GeologicalModel:
                         'plunge': np.random.normal(3, 2),
                         }
         self.nm.add_event('tilt', tilt_options)
+        #print(tilt_options)
         self.events.append(Event('tilt', tilt_options))
 
     def generate_unconformity(self, name):
@@ -191,6 +196,7 @@ class GeologicalModel:
             'dip_direction' : random.choice([90, 270]),
         }
         self.nm.add_event('unconformity', unconformity_options)
+        #print(unconformity_options)
         self.events.append(Event('unconformity', unconformity_options))
 
 

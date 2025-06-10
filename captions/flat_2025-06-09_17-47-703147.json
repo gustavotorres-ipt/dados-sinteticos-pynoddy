@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a seismic image. It has a layer-cake model.",
+        "a subsurface representation of a layer-cake model. It has low frequency and low noise.",
+        "this image represents a seismic image. It has a layer-cake model. It is low frequency and low noise.",
+        "we observe here a seismic image. It is a layer-cake model."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

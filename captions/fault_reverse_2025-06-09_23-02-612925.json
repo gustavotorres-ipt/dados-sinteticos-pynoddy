@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a model. It is a compressional tectonics.",
+        "a subsurface representation. It has a reverse fault."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_high_noise"
+    ]
+}

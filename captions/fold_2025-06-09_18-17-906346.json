@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a seismic image of a tectonic compression with low frequency and high noise.",
+        "we see here a 2D subsurface model. It has an anticline."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a seismic model. It is a structural compression.",
+        "a section of a structural compression. It has low frequency and high noise.",
+        "this image represents a 2D section of a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

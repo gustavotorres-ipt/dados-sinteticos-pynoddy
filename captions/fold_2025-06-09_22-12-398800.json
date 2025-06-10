@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a model. It has a structural compression of low frequency and low noise.",
+        "this image demonstrates a subsurface model of an antiform with low frequency and low noise.",
+        "this image demonstrates a 2D section. It is an anticline.",
+        "we observe here a 2D subsurface model of an antiform. It is low frequency and low noise.",
+        "this depicts a 2D section. It is a ductile deformation. It is low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

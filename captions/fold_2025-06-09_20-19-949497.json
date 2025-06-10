@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "a 2D subsurface model with an antiform.",
+        "we see here a subsurface model. It has an antiform of high frequency and high noise.",
+        "this depicts a sesimic section. It is a structural compression with high frequency and high noise.",
+        "a subsurface representation of a folded deformation.",
+        "we observe here a 2D section. It is a structural compression."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

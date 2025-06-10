@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a subsurface representation of an undeformed section of high frequency and low noise.",
+        "this image represents a sesimic section of a model with no tectonic deformation of high frequency and low noise.",
+        "we observe here a section with a layer-cake model.",
+        "this depicts a 2D subsurface model. It has a section with flat horizons.",
+        "this depicts a subsurface model with a section with flat horizons with high frequency and low noise."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

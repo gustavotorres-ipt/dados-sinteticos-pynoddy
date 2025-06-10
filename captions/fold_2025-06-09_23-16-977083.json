@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a sesimic section of a tectonic compression. It has high frequency and high noise.",
+        "this depicts a sesimic section. It has an anticline of high frequency and high noise.",
+        "a 2D section. It has a ductile deformation."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

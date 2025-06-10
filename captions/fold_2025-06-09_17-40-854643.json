@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a seismic image. It has an antiform.",
+        "we see here a seismic image. It is an anticline. It has low frequency and low noise.",
+        "we see here a model. It is a folded deformation. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

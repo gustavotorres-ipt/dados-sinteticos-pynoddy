@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we see here a sesimic section. It has a ductile deformation.",
+        "we observe here a seismic model with an anticline.",
+        "a 2D subsurface model with a folded deformation.",
+        "we observe here a section of a ductile deformation with low frequency and high noise.",
+        "a sesimic section. It has a folded deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

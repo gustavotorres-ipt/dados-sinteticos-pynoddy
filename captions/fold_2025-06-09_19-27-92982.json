@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a seismic image. It has a fold. It has low frequency and high noise.",
+        "this depicts a subsurface model with a tectonic compression. It is low frequency and high noise.",
+        "this image demonstrates a 2D subsurface model. It is an antiform of low frequency and high noise.",
+        "a seismic model with a fold."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

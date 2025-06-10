@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we observe here a seismic image. It has a fold.",
+        "this image represents a subsurface representation. It has a folded deformation. It has low frequency and low noise.",
+        "this image represents a subsurface representation. It is a ductile deformation.",
+        "we see here a 2D section. It has an anticline. It is low frequency and low noise.",
+        "we see here a 2D subsurface model with a fold. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

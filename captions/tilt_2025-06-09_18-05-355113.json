@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a seismic model. It has a tectonic tilting. It is low frequency and low noise.",
+        "this image demonstrates a 2D subsurface model with a tectonic tilting with low frequency and low noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

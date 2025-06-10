@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a model with a reverse-slip fault dipping east of high frequency and high noise.",
+        "a seismic model. It has a compressional fault dipping right."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_high_noise"
+    ]
+}

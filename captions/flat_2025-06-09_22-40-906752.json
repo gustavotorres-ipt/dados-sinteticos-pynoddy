@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a 2D seismic model. It has a layer-cake structural model with low frequency and high noise.",
+        "a 2D section. It has a flat bed stratigraphy section.",
+        "we observe here a subsurface model. It is a section with flat horizons.",
+        "this image represents a subsurface representation. It is a layer-cake structural model."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

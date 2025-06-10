@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D subsurface model of a geologic rigid deformation dipping left of high frequency and low noise.",
+        "this image represents a model. It is a horizons displacement along fault dipping west. It is high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_low_noise"
+    ]
+}

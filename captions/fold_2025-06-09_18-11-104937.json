@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a subsurface model. It is an antiform. It is high frequency and low noise.",
+        "we observe here a subsurface model of a structural compression with high frequency and low noise.",
+        "we observe here a subsurface model with a fold. It is high frequency and low noise.",
+        "a 2D subsurface model. It has an antiform. It has high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

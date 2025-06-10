@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a section. It is a geologic rigid deformation. It is high frequency and low noise.",
+        "we observe here a section. It is a horizons displacement along fault."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_low_noise"
+    ]
+}

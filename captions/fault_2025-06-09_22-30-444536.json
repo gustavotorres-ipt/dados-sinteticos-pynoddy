@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a seismic model. It is a horizons displacement along fault. It has high frequency and low noise.",
+        "we see here a model of a structural deformation. It has high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

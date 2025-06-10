@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a section. It has a tectonic deformation. It has high frequency and high noise.",
+        "we see here a subsurface model. It is a structural discontinuity dipping right. It has high frequency and high noise.",
+        "a seismic model of a rigid deformation known or fault with high frequency and high noise.",
+        "we see here a subsurface model with a dip-slip fault dipping east."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_high_noise"
+    ]
+}

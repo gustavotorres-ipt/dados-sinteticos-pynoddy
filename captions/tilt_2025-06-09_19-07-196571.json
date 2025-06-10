@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we see here a subsurface model. It has an inclined horizontal beds.",
+        "this image represents a section of a tilt of low frequency and low noise.",
+        "we observe here a section with a subsurface layer rotation. It is low frequency and low noise.",
+        "this image represents a subsurface representation of an inclined horizontal beds of low frequency and low noise.",
+        "we see here a seismic model of a tilted horizontal beds.",
+        "this image represents a 2D section. It is a subsurface layer rotation. It has low frequency and low noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

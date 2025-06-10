@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a 2D section with an anticline.",
+        "this depicts a subsurface model. It has a fold.",
+        "we see here a subsurface model of an anticline of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

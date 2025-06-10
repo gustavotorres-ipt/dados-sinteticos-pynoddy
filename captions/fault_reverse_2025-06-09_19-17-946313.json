@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a seismic image with a compressional tectonic settings of low frequency and low noise.",
+        "we observe here a seismic image. It has a compressional tectonics of low frequency and low noise.",
+        "this image represents a subsurface model with a compressional tectonic settings. It is low frequency and low noise.",
+        "this image demonstrates a 2D section. It has a movement."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_low_noise"
+    ]
+}

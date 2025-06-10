@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a 2D section of an inclined horizontal beds of low frequency and high noise.",
+        "this image represents a 2D subsurface model. It has a tectonic tilting. It has low frequency and high noise.",
+        "this image represents a model with a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

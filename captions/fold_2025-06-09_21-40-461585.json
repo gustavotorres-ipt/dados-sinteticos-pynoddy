@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a subsurface model of a ductile deformation.",
+        "this image demonstrates a seismic image. It is a fold with high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

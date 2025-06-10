@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a model. It is an undeformed section.",
+        "a section of a layer-cake model.",
+        "this image represents a 2D subsurface model of a model with no structural deformation."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

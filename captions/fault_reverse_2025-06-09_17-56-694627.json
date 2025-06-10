@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a sesimic section of a reverse-slip fault dipping east with high frequency and high noise.",
+        "this image demonstrates a section of a compressional tectonic settings with high frequency and high noise.",
+        "this image represents a seismic image with a reverse-slip fault."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_high_noise"
+    ]
+}

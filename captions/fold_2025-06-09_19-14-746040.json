@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a seismic image of a structural compression.",
+        "we observe here a section. It has a folded deformation.",
+        "a section of an antiform."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

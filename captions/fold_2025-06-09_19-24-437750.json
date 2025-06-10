@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D subsurface model. It is a structural compression.",
+        "a subsurface model. It is a tectonic compression with high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

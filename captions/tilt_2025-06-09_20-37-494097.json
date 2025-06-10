@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a section. It has a tilt. It is high frequency and low noise.",
+        "this depicts a subsurface representation. It has an inclined horizontal beds. It has high frequency and low noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

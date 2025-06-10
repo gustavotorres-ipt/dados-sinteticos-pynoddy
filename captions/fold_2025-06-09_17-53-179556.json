@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a sesimic section of a structural compression of low frequency and low noise.",
+        "this depicts a subsurface representation. It has a structural compression.",
+        "a subsurface representation. It has an antiform. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

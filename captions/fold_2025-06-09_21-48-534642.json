@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a seismic image with a ductile deformation.",
+        "this image represents a seismic model. It has a ductile deformation. It is low frequency and low noise.",
+        "we observe here a subsurface representation with a tectonic compression."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

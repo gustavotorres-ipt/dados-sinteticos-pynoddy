@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "this image demonstrates a model of a structural discontinuity of low frequency and high noise.",
+        "a section with a fault with low frequency and high noise.",
+        "this image represents a 2D subsurface model. It has a geologic rigid deformation. It has low frequency and high noise.",
+        "this depicts a seismic model of a structural deformation dipping left. It has low frequency and high noise.",
+        "a sesimic section of a horizons displacement along fault dipping west.",
+        "we observe here a 2D section. It has a tectonic fault with low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

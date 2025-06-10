@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a seismic model. It is a compressional fault dipping left.",
+        "this image demonstrates a seismic image with a reverse fault dipping west with high frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_high_frequency_high_noise"
+    ]
+}

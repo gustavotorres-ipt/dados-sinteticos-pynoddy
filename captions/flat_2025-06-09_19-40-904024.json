@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a subsurface model with a model with no tectonic deformation.",
+        "we observe here a seismic image with a flat bed stratigraphy section.",
+        "we see here a subsurface model. It has a section with flat horizons."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

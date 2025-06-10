@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we observe here a 2D section of an anticline.",
+        "this image demonstrates a 2D section. It has a tectonic compression.",
+        "a sesimic section with a folded deformation of low frequency and high noise.",
+        "this image demonstrates a sesimic section. It is a ductile deformation. It is low frequency and high noise.",
+        "we observe here a model. It is a structural compression of low frequency and high noise.",
+        "this image demonstrates a 2D section of a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

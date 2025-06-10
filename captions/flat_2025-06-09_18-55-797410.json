@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section. It has an undeformed section.",
+        "a section. It is a section with flat horizons with low frequency and low noise.",
+        "this depicts a 2D seismic model. It is an undeformed section with low frequency and low noise.",
+        "we observe here a section with a flat bed stratigraphy section."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

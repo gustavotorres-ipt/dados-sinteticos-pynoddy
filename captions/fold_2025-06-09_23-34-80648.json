@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a model with an antiform with low frequency and high noise.",
+        "this image represents a subsurface representation. It is a structural compression."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

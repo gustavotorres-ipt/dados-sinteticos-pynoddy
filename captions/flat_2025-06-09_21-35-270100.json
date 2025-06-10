@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "a sesimic section of a model with no tectonic deformation.",
+        "we observe here a sesimic section of a model with no structural deformation of high frequency and low noise.",
+        "a subsurface representation of a model with no structural deformation with high frequency and low noise.",
+        "we observe here a model of a layer-cake structural model.",
+        "a model. It is a model with no tectonic deformation with high frequency and low noise.",
+        "this image represents a seismic image with an undeformed section."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

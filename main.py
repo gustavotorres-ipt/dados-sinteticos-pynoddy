@@ -35,7 +35,7 @@ def plot_image(image, title=None):
     plt.close()
 
 def generate_seismic_images(plot):
-    n_images = 100
+    n_images = 9800
 
     for i in range(n_images):
         reload(pynoddy.history)
@@ -63,7 +63,7 @@ def generate_seismic_images(plot):
             plot_image(sm.synthetic_image, title=random.choice(captioner.captions))
 
 def main():
-    generate_seismic_images(plot=True)
+    generate_seismic_images(plot=False)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a subsurface representation of a compressional structural fault dipping left of low frequency and high noise.",
+        "this image represents a 2D section. It is a reverse tectonics dipping left. It is low frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_high_noise"
+    ]
+}

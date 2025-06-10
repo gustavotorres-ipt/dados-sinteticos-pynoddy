@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a model with an antiform.",
+        "a subsurface representation. It is a fold.",
+        "we observe here a seismic image. It has a fold."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

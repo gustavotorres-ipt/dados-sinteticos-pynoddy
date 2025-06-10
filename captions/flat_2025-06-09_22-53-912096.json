@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a section. It has a layer-cake stratigraphy section of high frequency and low noise.",
+        "this depicts a section of an undeformed section of high frequency and low noise.",
+        "a seismic image of a section with flat horizons of high frequency and low noise."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

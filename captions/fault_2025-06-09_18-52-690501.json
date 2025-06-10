@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a 2D subsurface model of a tectonic fault dipping west. It is low frequency and low noise.",
+        "this depicts a 2D section with a dip-slip fault dipping west. It is low frequency and low noise.",
+        "a 2D section with a structural deformation dipping west. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

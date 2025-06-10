@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section of a geologic rigid deformation dipping east. It has low frequency and low noise.",
+        "we observe here a subsurface model of a structural deformation with low frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

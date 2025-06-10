@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a seismic image. It has a tilted horizontal beds.",
+        "we observe here a sesimic section. It is a tilted horizontal beds. It is low frequency and low noise.",
+        "we observe here a sesimic section. It is a tectonic tilting.",
+        "this image demonstrates a section of a subsurface layer rotation of low frequency and low noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

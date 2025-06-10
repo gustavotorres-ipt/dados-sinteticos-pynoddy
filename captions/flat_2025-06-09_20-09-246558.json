@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "a 2D seismic model of a flat bed stratigraphy section with high frequency and high noise.",
+        "this depicts a subsurface representation with a flat bed stratigraphy section. It has high frequency and high noise.",
+        "a 2D subsurface model with a layer-cake model.",
+        "a seismic image. It is a model with no structural deformation. It has high frequency and high noise.",
+        "a sesimic section. It is a section with flat horizons.",
+        "this depicts a section. It is a model with no structural deformation."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

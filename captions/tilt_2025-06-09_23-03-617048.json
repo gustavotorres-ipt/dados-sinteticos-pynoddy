@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section. It has a tilt.",
+        "this image represents a seismic image. It has a tectonic tilting.",
+        "this image demonstrates a subsurface model. It is a subsurface layer rotation with low frequency and low noise.",
+        "this image demonstrates a seismic image with a tectonic tilting.",
+        "this image represents a 2D seismic model of a tilt."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a section of a tectonic fault. It has low frequency and low noise.",
+        "this image demonstrates a section. It is a geologic rigid deformation dipping east. It is low frequency and low noise.",
+        "we observe here a 2D section of a structural discontinuity. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

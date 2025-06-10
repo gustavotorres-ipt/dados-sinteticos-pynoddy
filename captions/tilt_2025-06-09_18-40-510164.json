@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a 2D section with a tilt. It is low frequency and low noise.",
+        "this depicts a seismic image with a tilted horizontal beds with low frequency and low noise.",
+        "we see here a section of a tilt. It has low frequency and low noise.",
+        "this image represents a model. It has a tilt. It has low frequency and low noise.",
+        "this depicts a seismic model. It is a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

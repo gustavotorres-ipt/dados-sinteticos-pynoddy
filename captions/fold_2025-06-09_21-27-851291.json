@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section. It is a tectonic compression with high frequency and high noise.",
+        "this image represents a section of a structural compression. It is high frequency and high noise.",
+        "this depicts a 2D seismic model of a folded deformation. It is high frequency and high noise.",
+        "this image demonstrates a 2D section. It is a fold. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

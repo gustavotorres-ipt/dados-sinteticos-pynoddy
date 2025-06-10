@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic model with a layer-cake structural model. It has high frequency and high noise.",
+        "a subsurface representation. It has an undeformed section. It has high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

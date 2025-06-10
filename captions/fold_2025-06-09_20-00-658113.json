@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "a seismic image with a fold. It has high frequency and high noise.",
+        "a seismic image. It is a ductile deformation of high frequency and high noise.",
+        "a 2D section of a tectonic compression of high frequency and high noise.",
+        "we see here a model. It has a folded deformation.",
+        "we see here a 2D section of a tectonic compression. It has high frequency and high noise.",
+        "we observe here a sesimic section. It is a ductile deformation. It is high frequency and high noise.",
+        "we see here a model with a fold."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

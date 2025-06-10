@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a seismic model of a layer-cake structural model. It has high frequency and high noise.",
+        "we see here a model. It is a model with no tectonic deformation with high frequency and high noise.",
+        "this image represents a seismic model. It is a flat bed stratigraphy section.",
+        "we observe here a model with a flat bed stratigraphy section."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a 2D section of a tilt.",
+        "this depicts a model with an inclined horizontal beds.",
+        "we see here a seismic image. It is an inclined horizontal beds with high frequency and high noise.",
+        "we observe here a 2D subsurface model. It has a tilted horizontal beds with high frequency and high noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

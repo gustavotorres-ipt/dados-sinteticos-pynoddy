@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "this depicts a subsurface model. It has a horizons displacement along fault.",
+        "this depicts a 2D section. It is a tectonic deformation dipping right.",
+        "this image demonstrates a 2D subsurface model. It has a dip-slip fault. It is high frequency and low noise.",
+        "this image represents a section. It has a horizons displacement along fault.",
+        "this image represents a section. It has a dip-slip fault dipping east.",
+        "this image demonstrates a seismic model of a tectonic fault with high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

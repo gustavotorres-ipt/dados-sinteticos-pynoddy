@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a sesimic section of a tectonic deformation.",
+        "this image represents a 2D subsurface model with a dip-slip fault."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

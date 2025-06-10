@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D section. It has an anticline. It is low frequency and low noise.",
+        "a model of a folded deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

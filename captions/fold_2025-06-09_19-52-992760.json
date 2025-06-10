@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a subsurface representation. It has a structural compression with low frequency and high noise.",
+        "this image represents a subsurface representation. It has a fold. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a seismic model of a flat bed stratigraphy section. It has low frequency and low noise.",
+        "we observe here a seismic image with a model with no structural deformation. It is low frequency and low noise."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

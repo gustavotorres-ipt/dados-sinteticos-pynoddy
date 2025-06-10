@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a 2D subsurface model with a rigid deformation known or fault.",
+        "this image represents a seismic image. It is a rigid deformation known or fault dipping east.",
+        "this image represents a subsurface model of a dip-slip fault.",
+        "this image demonstrates a 2D subsurface model with a horizons displacement along fault dipping right of low frequency and high noise.",
+        "we observe here a section with a tectonic deformation dipping east. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

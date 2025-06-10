@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a sesimic section with an inclined horizontal beds with low frequency and low noise.",
+        "a seismic model with a tilted horizontal beds.",
+        "a seismic model. It is a tilt."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

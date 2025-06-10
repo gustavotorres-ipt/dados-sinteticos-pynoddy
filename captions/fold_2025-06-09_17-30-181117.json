@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "a subsurface model. It is a tectonic compression.",
+        "we observe here a sesimic section of an antiform.",
+        "a seismic image of a ductile deformation. It has low frequency and high noise.",
+        "this depicts a subsurface model with a tectonic compression of low frequency and high noise.",
+        "this image represents a section with a tectonic compression. It is low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

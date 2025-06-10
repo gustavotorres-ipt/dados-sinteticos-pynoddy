@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a seismic model with a structural discontinuity.",
+        "we observe here a model with a dip-slip fault."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a seismic image with a section with flat horizons.",
+        "this image represents a sesimic section with a section with flat horizons.",
+        "this depicts a 2D section. It is a model with no tectonic deformation of low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

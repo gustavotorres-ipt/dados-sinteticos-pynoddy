@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a section with a structural discontinuity.",
+        "this image represents a sesimic section. It has a tectonic deformation dipping west.",
+        "we observe here a section with a geologic rigid deformation dipping west of high frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_high_noise"
+    ]
+}

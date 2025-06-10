@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a subsurface model. It has a geologic rigid deformation dipping right with low frequency and high noise.",
+        "this image demonstrates a 2D subsurface model. It is a structural deformation of low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

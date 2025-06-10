@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a 2D section. It is a tectonic tilting.",
+        "this depicts a seismic model with an inclined horizontal beds."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

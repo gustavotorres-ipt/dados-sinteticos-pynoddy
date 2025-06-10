@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a model. It is a folded deformation. It is high frequency and high noise.",
+        "this depicts a subsurface model. It has a fold."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

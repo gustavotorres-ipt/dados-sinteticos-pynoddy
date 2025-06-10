@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we see here a subsurface representation with a compressional fault dipping east. It has high frequency and high noise.",
+        "we see here a section with a movement dipping right.",
+        "a 2D section. It has a compressional structural fault dipping east of high frequency and high noise.",
+        "we see here a model with a compressional structural fault of high frequency and high noise.",
+        "a section with a compressional structural fault dipping east with high frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_high_noise"
+    ]
+}

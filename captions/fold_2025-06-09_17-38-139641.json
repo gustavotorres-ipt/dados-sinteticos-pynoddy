@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a model. It is a folded deformation.",
+        "a sesimic section. It has a ductile deformation.",
+        "this image represents a subsurface representation. It is an anticline.",
+        "this depicts a model. It is an antiform."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

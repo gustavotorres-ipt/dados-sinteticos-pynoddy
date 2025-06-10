@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a subsurface model of a rigid deformation known or fault.",
+        "a seismic model. It has a tectonic fault dipping right with high frequency and high noise.",
+        "we see here a seismic image with a rigid deformation known or fault."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a model. It has a folded deformation with low frequency and low noise.",
+        "this image demonstrates a sesimic section. It is a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

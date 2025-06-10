@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "a seismic image. It is a ductile deformation.",
+        "this image represents a model. It has a structural compression with low frequency and high noise.",
+        "a subsurface model of a fold. It has low frequency and high noise.",
+        "this depicts a section of a structural compression.",
+        "this image demonstrates a 2D subsurface model. It is an antiform with low frequency and high noise.",
+        "this image represents a sesimic section. It is an anticline. It is low frequency and high noise.",
+        "we see here a subsurface model. It is a ductile deformation. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

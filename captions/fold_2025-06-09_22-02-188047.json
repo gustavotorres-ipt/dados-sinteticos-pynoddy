@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a subsurface representation. It has a ductile deformation with high frequency and high noise.",
+        "this image represents a 2D section with a folded deformation with high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

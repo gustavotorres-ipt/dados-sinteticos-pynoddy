@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we see here a subsurface representation. It has a tectonic compression.",
+        "this image represents a subsurface representation. It has a fold.",
+        "we observe here a 2D section. It is an anticline with high frequency and high noise.",
+        "we see here a seismic image. It is a structural compression."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

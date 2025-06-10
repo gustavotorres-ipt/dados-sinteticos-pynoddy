@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section with a fault dipping left. It is low frequency and high noise.",
+        "we see here a seismic model. It has a tectonic deformation dipping left. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

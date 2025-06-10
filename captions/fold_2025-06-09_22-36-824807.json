@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a model of a structural compression.",
+        "we see here a section. It has an antiform. It is low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

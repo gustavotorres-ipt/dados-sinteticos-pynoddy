@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a seismic model of a ductile deformation.",
+        "this image demonstrates a seismic model. It has a structural compression."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

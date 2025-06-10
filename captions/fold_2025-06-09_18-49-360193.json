@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a model with a tectonic compression.",
+        "this image demonstrates a section. It has an anticline."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

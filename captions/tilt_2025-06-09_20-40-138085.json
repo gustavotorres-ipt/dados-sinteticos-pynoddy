@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section. It is a tectonic tilting.",
+        "we observe here a seismic image. It is a tectonic tilting with high frequency and low noise.",
+        "a seismic image. It is a tilt with high frequency and low noise.",
+        "we observe here a model. It has a tilt."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

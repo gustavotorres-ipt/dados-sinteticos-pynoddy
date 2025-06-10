@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a subsurface representation with a folded deformation.",
+        "we see here a sesimic section. It has an antiform.",
+        "we observe here a section of an anticline with low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

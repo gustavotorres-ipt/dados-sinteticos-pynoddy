@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a 2D subsurface model of a ductile deformation.",
+        "a seismic model of a fold. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

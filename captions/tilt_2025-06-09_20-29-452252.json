@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a subsurface model with a tilted horizontal beds. It is high frequency and high noise.",
+        "we see here a seismic image. It is a subsurface layer rotation with high frequency and high noise.",
+        "a model. It has a tectonic tilting. It is high frequency and high noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

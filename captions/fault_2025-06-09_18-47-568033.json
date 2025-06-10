@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a 2D subsurface model of a rigid deformation known or fault.",
+        "this image demonstrates a subsurface representation. It is a tectonic fault."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

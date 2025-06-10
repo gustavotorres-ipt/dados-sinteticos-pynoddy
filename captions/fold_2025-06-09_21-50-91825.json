@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we see here a 2D section. It has a folded deformation.",
+        "this depicts a section. It has a structural compression.",
+        "this depicts a seismic model. It has a folded deformation with low frequency and high noise.",
+        "we observe here a 2D subsurface model. It is a ductile deformation.",
+        "we see here a section of a tectonic compression with low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

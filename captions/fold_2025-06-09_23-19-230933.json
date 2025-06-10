@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a subsurface model. It is a ductile deformation.",
+        "this depicts a seismic image with an antiform. It is high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

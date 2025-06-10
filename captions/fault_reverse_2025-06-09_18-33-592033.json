@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a seismic image of a compressional structural fault dipping left.",
+        "this depicts a subsurface representation with a reverse tectonics dipping left of high frequency and low noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_high_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section of a tectonic compression.",
+        "we observe here a 2D subsurface model with a folded deformation with low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

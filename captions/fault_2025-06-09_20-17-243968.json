@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a 2D subsurface model with a tectonic deformation with low frequency and low noise.",
+        "a sesimic section with a rigid deformation known or fault.",
+        "this depicts a seismic image of a tectonic deformation."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

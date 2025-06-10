@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a section of a layer-cake stratigraphy section with high frequency and high noise.",
+        "this depicts a 2D section. It is a flat bed stratigraphy section."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we see here a 2D subsurface model with a subsurface layer rotation. It has high frequency and high noise.",
+        "a 2D section of a tectonic tilting. It has high frequency and high noise.",
+        "this depicts a model of a tilt with high frequency and high noise.",
+        "this image demonstrates a 2D subsurface model. It has a tilted horizontal beds. It is high frequency and high noise.",
+        "we see here a subsurface representation. It has a subsurface layer rotation with high frequency and high noise.",
+        "a 2D seismic model. It is a tilt. It has high frequency and high noise.",
+        "this depicts a subsurface model of a tilt of high frequency and high noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

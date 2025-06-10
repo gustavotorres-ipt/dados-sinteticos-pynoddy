@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a model with a dip-slip fault.",
+        "a seismic image. It is a structural deformation dipping west.",
+        "this image represents a 2D subsurface model with a geologic rigid deformation dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

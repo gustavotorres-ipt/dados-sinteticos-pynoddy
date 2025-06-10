@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we see here a sesimic section of a rigid deformation known or fault dipping left of low frequency and low noise.",
+        "we see here a 2D subsurface model with a horizons displacement along fault dipping west.",
+        "this image represents a 2D subsurface model. It has a horizons displacement along fault. It has low frequency and low noise.",
+        "we observe here a subsurface model with a fault.",
+        "a subsurface representation with a geologic rigid deformation dipping left. It has low frequency and low noise.",
+        "a 2D subsurface model. It is a dip-slip fault dipping west.",
+        "we observe here a seismic model of a tectonic fault dipping left of low frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

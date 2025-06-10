@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a seismic image. It is a layer-cake structural model of high frequency and high noise.",
+        "we see here a subsurface representation. It is a layer-cake stratigraphy section."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

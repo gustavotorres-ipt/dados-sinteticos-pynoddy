@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a 2D section. It has a model with no tectonic deformation.",
+        "this image represents a section. It has a layer-cake structural model.",
+        "a 2D section with a section with flat horizons."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

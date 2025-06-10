@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic image. It is a folded deformation.",
+        "this image demonstrates a seismic image. It is an antiform."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a 2D seismic model. It has a horizons displacement along fault dipping east.",
+        "this image demonstrates a section. It has a structural discontinuity with high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

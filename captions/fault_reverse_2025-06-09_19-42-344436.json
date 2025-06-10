@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a sesimic section. It has a compressional tectonic settings dipping west with low frequency and high noise.",
+        "we see here a subsurface representation. It has a compressional tectonics with low frequency and high noise.",
+        "a seismic model of a compressional fault of low frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_high_noise"
+    ]
+}

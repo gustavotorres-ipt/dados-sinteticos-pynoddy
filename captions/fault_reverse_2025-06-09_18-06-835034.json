@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a seismic model. It is a compressional tectonic settings.",
+        "this depicts a subsurface model of a compressional fault dipping west."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a 2D subsurface model of a layer-cake stratigraphy section of high frequency and high noise.",
+        "this image represents a subsurface representation of a layer-cake structural model with high frequency and high noise.",
+        "a section. It has a model with no structural deformation."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

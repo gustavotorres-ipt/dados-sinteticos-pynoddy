@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this depicts a 2D seismic model of a rigid deformation known or fault dipping east.",
+        "this image demonstrates a 2D section. It has a structural discontinuity.",
+        "we observe here a subsurface model with a structural discontinuity dipping east.",
+        "a subsurface model. It is a horizons displacement along fault dipping east with low frequency and high noise.",
+        "we observe here a subsurface representation. It has a fault dipping east.",
+        "this image demonstrates a sesimic section. It is a structural discontinuity dipping right. It is low frequency and high noise.",
+        "this image represents a seismic image with a structural discontinuity. It is low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

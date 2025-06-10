@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a section. It is a reverse tectonics.",
+        "a 2D section. It is a compressional tectonics. It has low frequency and high noise.",
+        "this image represents a 2D section of a downward tectonic dipping right with low frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_low_frequency_high_noise"
+    ]
+}

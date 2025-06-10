@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a seismic image. It is a geologic rigid deformation dipping right with high frequency and high noise.",
+        "this image represents a 2D subsurface model of a tectonic deformation. It has high frequency and high noise.",
+        "this image demonstrates a sesimic section. It has a dip-slip fault dipping right. It is high frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a 2D subsurface model with a flat bed stratigraphy section.",
+        "we observe here a seismic model of a flat bed stratigraphy section.",
+        "a 2D subsurface model with a flat bed stratigraphy section.",
+        "this depicts a 2D seismic model with an undeformed section.",
+        "a subsurface representation of a model with no tectonic deformation."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

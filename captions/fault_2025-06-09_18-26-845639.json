@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a seismic model. It is a structural deformation with low frequency and high noise.",
+        "a 2D seismic model. It has a rigid deformation known or fault. It is low frequency and high noise.",
+        "a 2D subsurface model. It has a horizons displacement along fault dipping east."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

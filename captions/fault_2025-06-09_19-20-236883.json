@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we observe here a seismic image. It has a geologic rigid deformation dipping east.",
+        "this depicts a model. It has a dip-slip fault.",
+        "this depicts a subsurface model. It has a dip-slip fault dipping east.",
+        "we observe here a 2D section of a horizons displacement along fault dipping east.",
+        "this image demonstrates a section of a horizons displacement along fault."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

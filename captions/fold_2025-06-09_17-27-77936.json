@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a subsurface model. It has an anticline.",
+        "this image demonstrates a model. It is a tectonic compression.",
+        "this image represents a seismic image with a folded deformation of high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

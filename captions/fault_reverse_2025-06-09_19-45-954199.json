@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section. It is a compressional structural fault.",
+        "this image represents a subsurface model. It is a compressional fault with high frequency and low noise.",
+        "this depicts a seismic image. It is a compressional structural fault.",
+        "we observe here a seismic image. It is a downward tectonic. It is high frequency and low noise.",
+        "a section with a downward tectonic dipping east. It is high frequency and low noise.",
+        "this depicts a seismic image with a movement dipping right.",
+        "we observe here a subsurface model with a reverse-slip fault dipping east."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_low_noise"
+    ]
+}

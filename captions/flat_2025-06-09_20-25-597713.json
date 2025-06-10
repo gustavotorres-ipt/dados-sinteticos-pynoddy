@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a 2D section of a section with flat horizons.",
+        "we see here a sesimic section. It is an undeformed section of high frequency and low noise."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

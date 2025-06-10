@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a sesimic section with a subsurface layer rotation. It has low frequency and high noise.",
+        "we observe here a 2D subsurface model. It is a subsurface layer rotation of low frequency and high noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

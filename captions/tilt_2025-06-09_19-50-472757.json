@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic model. It is a tilt of high frequency and high noise.",
+        "a 2D seismic model. It is a tectonic tilting. It has high frequency and high noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

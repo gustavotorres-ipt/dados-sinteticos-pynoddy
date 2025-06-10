@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a sesimic section. It is a fold.",
+        "this image represents a model with an anticline. It is low frequency and low noise.",
+        "we observe here a seismic model of an anticline of low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a subsurface model. It is a tilt of low frequency and high noise.",
+        "we observe here a 2D subsurface model of a tilt."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

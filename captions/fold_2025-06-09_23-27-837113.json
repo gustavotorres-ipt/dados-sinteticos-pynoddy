@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a seismic model of a folded deformation.",
+        "this image represents a model. It is a tectonic compression.",
+        "this image demonstrates a seismic image. It has a fold.",
+        "we observe here a seismic model of a ductile deformation of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

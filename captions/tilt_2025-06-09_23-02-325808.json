@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D seismic model of a tilted horizontal beds.",
+        "this image demonstrates a 2D seismic model of a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

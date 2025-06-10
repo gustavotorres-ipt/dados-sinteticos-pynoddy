@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a sesimic section. It has an inclined horizontal beds. It has low frequency and low noise.",
+        "this image represents a subsurface model with a tilted horizontal beds.",
+        "this image demonstrates a 2D section of a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

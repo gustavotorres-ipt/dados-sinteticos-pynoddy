@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a seismic model. It has a downward tectonic dipping east.",
+        "we observe here a subsurface model. It has a reverse fault dipping east.",
+        "we observe here a seismic image. It is a downward tectonic with high frequency and low noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_low_noise"
+    ]
+}

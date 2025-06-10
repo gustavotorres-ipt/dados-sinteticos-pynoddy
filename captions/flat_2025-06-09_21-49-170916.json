@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a 2D subsurface model of a section with flat horizons. It is high frequency and high noise.",
+        "this image demonstrates a 2D seismic model of a layer-cake structural model.",
+        "this image represents a 2D seismic model. It has an undeformed section of high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

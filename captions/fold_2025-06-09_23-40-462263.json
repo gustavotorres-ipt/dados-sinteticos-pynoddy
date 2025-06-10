@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a section. It has a folded deformation.",
+        "we observe here a seismic model. It is a folded deformation. It is high frequency and high noise.",
+        "this image represents a model with a fold. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

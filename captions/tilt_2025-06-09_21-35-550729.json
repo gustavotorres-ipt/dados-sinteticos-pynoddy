@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a model of a tilt.",
+        "a subsurface model of an inclined horizontal beds of low frequency and high noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

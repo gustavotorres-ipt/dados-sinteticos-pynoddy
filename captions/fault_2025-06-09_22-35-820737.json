@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a 2D section of a tectonic fault dipping left.",
+        "a subsurface representation with a geologic rigid deformation dipping left.",
+        "we observe here a model of a tectonic fault.",
+        "this image demonstrates a 2D section. It has a tectonic fault. It has high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_low_noise"
+    ]
+}

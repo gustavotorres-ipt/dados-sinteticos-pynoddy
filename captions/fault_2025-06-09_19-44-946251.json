@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a subsurface representation. It is a dip-slip fault dipping east.",
+        "this image demonstrates a seismic model of a horizons displacement along fault with high frequency and low noise.",
+        "this depicts a subsurface representation with a fault with high frequency and low noise.",
+        "a seismic model with a geologic rigid deformation."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

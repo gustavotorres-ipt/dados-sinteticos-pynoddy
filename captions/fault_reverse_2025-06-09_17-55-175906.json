@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a 2D subsurface model. It is a compressional structural fault of high frequency and high noise.",
+        "a seismic model with a downward tectonic."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we observe here a subsurface model of a tectonic compression. It has low frequency and high noise.",
+        "this image demonstrates a model with a structural compression.",
+        "we observe here a seismic model. It is an anticline of low frequency and high noise.",
+        "this image demonstrates a 2D section of a tectonic compression. It has low frequency and high noise.",
+        "we see here a seismic image. It has an anticline. It is low frequency and high noise.",
+        "this image demonstrates a seismic model of a structural compression of low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

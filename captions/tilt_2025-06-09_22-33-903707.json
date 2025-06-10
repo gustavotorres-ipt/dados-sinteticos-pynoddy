@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a seismic image with a tilted horizontal beds.",
+        "this image represents a 2D seismic model. It has a subsurface layer rotation."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a subsurface model of a tectonic tilting of high frequency and low noise.",
+        "this depicts a subsurface model of a tilted horizontal beds.",
+        "this depicts a section. It has a subsurface layer rotation.",
+        "this image demonstrates a 2D subsurface model of a subsurface layer rotation with high frequency and low noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

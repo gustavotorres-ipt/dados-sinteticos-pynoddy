@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a subsurface representation. It is a compressional tectonic settings dipping right.",
+        "this image represents a seismic image. It has a reverse tectonics dipping east. It is high frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_high_noise"
+    ]
+}

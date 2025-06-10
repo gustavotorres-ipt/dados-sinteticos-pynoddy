@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a seismic image of a fold. It has high frequency and low noise.",
+        "this depicts a model with a folded deformation of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

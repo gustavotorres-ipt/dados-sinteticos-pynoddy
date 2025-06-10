@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a section. It is a reverse fault.",
+        "we see here a seismic image. It has a reverse fault dipping right.",
+        "we see here a 2D subsurface model of a reverse-slip fault of high frequency and low noise.",
+        "we see here a sesimic section of a compressional tectonic settings dipping east."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_low_noise"
+    ]
+}

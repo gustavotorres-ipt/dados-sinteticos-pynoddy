@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a seismic image of a tectonic compression with high frequency and low noise.",
+        "we observe here a section. It is a structural compression. It has high frequency and low noise.",
+        "we see here a subsurface representation with a ductile deformation. It is high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

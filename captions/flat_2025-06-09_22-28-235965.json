@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a seismic model of a flat bed stratigraphy section.",
+        "this depicts a seismic image. It is a layer-cake structural model of low frequency and low noise.",
+        "we see here a seismic model with a model with no tectonic deformation of low frequency and low noise.",
+        "this depicts a subsurface model. It is an undeformed section."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic image. It is a model with no tectonic deformation.",
+        "we observe here a seismic image. It is a model with no tectonic deformation."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

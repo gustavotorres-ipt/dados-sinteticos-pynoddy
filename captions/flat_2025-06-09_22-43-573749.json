@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a 2D section. It has a section with flat horizons.",
+        "this depicts a subsurface representation of a layer-cake structural model.",
+        "this image demonstrates a model with a section with flat horizons."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

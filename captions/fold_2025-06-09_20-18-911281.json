@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a sesimic section with a fold.",
+        "this depicts a 2D section of a folded deformation.",
+        "this image demonstrates a 2D subsurface model with a fold.",
+        "this depicts a subsurface model. It is a structural compression. It is high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a 2D subsurface model of a model with no structural deformation with low frequency and low noise.",
+        "a sesimic section. It is an undeformed section.",
+        "we see here a subsurface representation. It is a model with no structural deformation. It is low frequency and low noise.",
+        "we observe here a 2D subsurface model of a layer-cake stratigraphy section."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

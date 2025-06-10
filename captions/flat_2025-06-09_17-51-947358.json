@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a section of an undeformed section. It is high frequency and high noise.",
+        "we see here a seismic image. It is an undeformed section. It is high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

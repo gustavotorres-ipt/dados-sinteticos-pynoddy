@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a model. It is a tectonic tilting.",
+        "we observe here a section. It is a tilted horizontal beds.",
+        "we see here a sesimic section with a tectonic tilting."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

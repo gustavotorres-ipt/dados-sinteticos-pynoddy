@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a 2D subsurface model. It has a reverse-slip fault dipping right.",
+        "this image represents a model of a compressional fault dipping right.",
+        "this depicts a sesimic section with a compressional structural fault."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_low_frequency_high_noise"
+    ]
+}

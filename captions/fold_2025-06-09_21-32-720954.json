@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a 2D seismic model. It is a folded deformation. It is high frequency and low noise.",
+        "a seismic model with an antiform with high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

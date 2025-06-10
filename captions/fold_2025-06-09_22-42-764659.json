@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "a section with a fold of low frequency and low noise.",
+        "this image demonstrates a subsurface model of a tectonic compression. It has low frequency and low noise.",
+        "this depicts a sesimic section with an anticline.",
+        "we observe here a 2D subsurface model with an anticline.",
+        "we observe here a subsurface model. It has a fold with low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

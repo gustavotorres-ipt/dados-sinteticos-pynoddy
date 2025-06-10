@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a model with an anticline.",
+        "we observe here a subsurface representation with a tectonic compression with low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

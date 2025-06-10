@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a 2D section of a model with no tectonic deformation.",
+        "this image demonstrates a sesimic section. It is a layer-cake structural model.",
+        "a section. It is a layer-cake model."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

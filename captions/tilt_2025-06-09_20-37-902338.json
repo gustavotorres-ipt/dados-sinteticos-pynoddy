@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section. It has an inclined horizontal beds.",
+        "this image demonstrates a seismic model. It has a tectonic tilting."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

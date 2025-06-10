@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a model. It has a subsurface layer rotation.",
+        "this image demonstrates a 2D subsurface model. It is a tilt."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

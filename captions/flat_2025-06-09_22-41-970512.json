@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we observe here a subsurface representation. It is a model with no structural deformation.",
+        "this image represents a subsurface model. It is a section with flat horizons. It has low frequency and low noise.",
+        "we observe here a subsurface model. It is a model with no tectonic deformation.",
+        "a section of a section with flat horizons. It has low frequency and low noise.",
+        "a seismic image. It is a model with no tectonic deformation. It is low frequency and low noise."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

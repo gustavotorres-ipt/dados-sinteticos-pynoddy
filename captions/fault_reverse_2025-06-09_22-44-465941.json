@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a section. It has a reverse tectonics.",
+        "we see here a seismic image of a compressional tectonics dipping right.",
+        "this image represents a seismic image with a compressional structural fault.",
+        "this depicts a seismic image. It has a movement dipping east."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_low_noise"
+    ]
+}

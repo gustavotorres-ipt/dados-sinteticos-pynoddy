@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image represents a subsurface representation. It has an inclined horizontal beds.",
+        "we see here a 2D section with a tilted horizontal beds.",
+        "this image demonstrates a 2D subsurface model. It is a tectonic tilting.",
+        "this image demonstrates a subsurface model with an inclined horizontal beds.",
+        "this depicts a subsurface model with a tilt."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

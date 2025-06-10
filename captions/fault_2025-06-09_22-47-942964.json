@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a section of a horizons displacement along fault. It is high frequency and high noise.",
+        "this image represents a subsurface representation. It is a dip-slip fault dipping left of high frequency and high noise.",
+        "a subsurface representation. It has a geologic rigid deformation."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_high_noise"
+    ]
+}

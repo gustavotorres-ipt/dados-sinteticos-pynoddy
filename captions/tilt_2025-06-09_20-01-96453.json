@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a model with a tectonic tilting.",
+        "this image represents a section. It is a tectonic tilting."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

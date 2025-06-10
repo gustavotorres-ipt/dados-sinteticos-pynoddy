@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a section of a fault dipping west.",
+        "we observe here a sesimic section. It is a structural deformation. It is low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a model. It has a geologic rigid deformation.",
+        "a model. It has a dip-slip fault dipping right.",
+        "this image demonstrates a sesimic section with a geologic rigid deformation.",
+        "we see here a sesimic section of a structural deformation dipping right of high frequency and high noise.",
+        "a sesimic section. It is a structural discontinuity dipping right."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_high_noise"
+    ]
+}

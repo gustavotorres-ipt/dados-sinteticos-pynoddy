@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a sesimic section. It is a compressional fault.",
+        "we see here a sesimic section. It has a compressional fault dipping east of low frequency and low noise.",
+        "a seismic image with a downward tectonic."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_low_frequency_low_noise"
+    ]
+}

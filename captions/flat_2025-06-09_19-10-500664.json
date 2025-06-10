@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we see here a subsurface representation. It is a flat bed stratigraphy section with low frequency and high noise.",
+        "we see here a section with a flat bed stratigraphy section with low frequency and high noise.",
+        "this image represents a model of a model with no structural deformation.",
+        "this image demonstrates a section of a model with no structural deformation."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

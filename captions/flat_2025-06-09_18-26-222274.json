@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a subsurface representation with a layer-cake stratigraphy section.",
+        "this image represents a subsurface model. It is an undeformed section.",
+        "this image demonstrates a section of a model with no tectonic deformation. It is low frequency and low noise.",
+        "we see here a sesimic section of an undeformed section."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

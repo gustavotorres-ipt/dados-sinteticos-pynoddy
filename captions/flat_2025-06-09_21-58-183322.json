@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a seismic image with a flat bed stratigraphy section. It has low frequency and high noise.",
+        "we observe here a sesimic section with a section with flat horizons of low frequency and high noise.",
+        "we see here a 2D section. It has a layer-cake stratigraphy section.",
+        "this image demonstrates a 2D section. It is a model with no tectonic deformation with low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

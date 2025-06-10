@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a model. It has a tectonic compression.",
+        "we see here a section. It has an antiform with high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a seismic model. It has a reverse-slip fault.",
+        "this image represents a subsurface representation. It is a reverse tectonics. It has high frequency and high noise.",
+        "a seismic image. It has a movement of high frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_high_frequency_high_noise"
+    ]
+}

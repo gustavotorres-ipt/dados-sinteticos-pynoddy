@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a section. It is a layer-cake model with low frequency and high noise.",
+        "this image demonstrates a 2D section with a layer-cake structural model.",
+        "this depicts a section. It is an undeformed section.",
+        "we see here a subsurface model with a layer-cake model with low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

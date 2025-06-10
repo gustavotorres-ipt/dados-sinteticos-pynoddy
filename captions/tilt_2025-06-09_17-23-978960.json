@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section with a tilted horizontal beds. It is low frequency and low noise.",
+        "this depicts a 2D subsurface model. It is a subsurface layer rotation."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

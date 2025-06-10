@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D section with an undeformed section.",
+        "this image represents a sesimic section. It is a layer-cake model. It has high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

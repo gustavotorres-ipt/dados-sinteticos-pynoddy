@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a section with an undeformed section.",
+        "we see here a model with a layer-cake model.",
+        "we see here a model. It is a model with no tectonic deformation of low frequency and high noise.",
+        "this depicts a seismic image with an undeformed section with low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

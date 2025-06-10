@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D seismic model. It is a ductile deformation.",
+        "we see here a 2D seismic model of an antiform."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

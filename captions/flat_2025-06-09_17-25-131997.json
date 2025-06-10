@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we observe here a subsurface representation. It is a model with no tectonic deformation.",
+        "this depicts a subsurface model with a layer-cake stratigraphy section. It is low frequency and low noise.",
+        "we see here a 2D subsurface model. It is a layer-cake model. It has low frequency and low noise.",
+        "a 2D subsurface model with a layer-cake stratigraphy section.",
+        "a sesimic section with a section with flat horizons."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

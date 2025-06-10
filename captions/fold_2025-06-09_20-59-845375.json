@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section of a folded deformation.",
+        "this depicts a subsurface model of a fold of high frequency and low noise.",
+        "a subsurface representation. It is a ductile deformation.",
+        "this image demonstrates a model with an antiform.",
+        "we observe here a model of a ductile deformation. It has high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

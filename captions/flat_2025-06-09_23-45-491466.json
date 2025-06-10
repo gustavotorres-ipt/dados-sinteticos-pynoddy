@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we see here a subsurface model. It is a layer-cake stratigraphy section.",
+        "this depicts a model of a flat bed stratigraphy section.",
+        "this image demonstrates a sesimic section. It is a layer-cake model. It has high frequency and low noise.",
+        "we observe here a 2D subsurface model of a layer-cake model.",
+        "this depicts a section of a flat bed stratigraphy section.",
+        "this image demonstrates a 2D section. It has a layer-cake model."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

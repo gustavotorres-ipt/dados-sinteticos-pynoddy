@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a sesimic section. It has a tectonic fault.",
+        "we observe here a section. It is a structural discontinuity dipping east."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a 2D section. It has a tilted horizontal beds.",
+        "this image represents a subsurface representation of a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

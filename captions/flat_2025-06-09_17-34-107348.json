@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a subsurface model. It is a layer-cake stratigraphy section.",
+        "this image demonstrates a seismic image with a section with flat horizons."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

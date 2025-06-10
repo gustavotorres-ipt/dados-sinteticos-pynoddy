@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a subsurface representation of a tectonic tilting of high frequency and high noise.",
+        "this image demonstrates a section. It is a tilt."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a subsurface representation. It has a tectonic compression with low frequency and low noise.",
+        "we observe here a subsurface representation. It is a structural compression with low frequency and low noise.",
+        "this depicts a subsurface representation with a fold. It has low frequency and low noise.",
+        "this depicts a 2D subsurface model with an anticline."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

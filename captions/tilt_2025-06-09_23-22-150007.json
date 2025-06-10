@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a model. It has a tilt.",
+        "a subsurface model. It is a tectonic tilting.",
+        "this image demonstrates a subsurface model. It is a tilted horizontal beds with low frequency and high noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

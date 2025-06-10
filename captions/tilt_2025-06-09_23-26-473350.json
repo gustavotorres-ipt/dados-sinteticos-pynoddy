@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a sesimic section of a tilted horizontal beds.",
+        "we observe here a seismic image. It is a tilt of low frequency and high noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

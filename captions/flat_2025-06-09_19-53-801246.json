@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a subsurface representation of a layer-cake stratigraphy section.",
+        "we see here a 2D section. It is an undeformed section. It has high frequency and high noise.",
+        "this image represents a 2D section of a layer-cake stratigraphy section with high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

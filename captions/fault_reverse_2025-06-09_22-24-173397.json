@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "a sesimic section of a movement dipping right. It has high frequency and high noise.",
+        "we see here a 2D subsurface model with a movement of high frequency and high noise.",
+        "we observe here a model of a reverse-slip fault dipping east of high frequency and high noise.",
+        "we see here a 2D subsurface model with a reverse-slip fault of high frequency and high noise.",
+        "we observe here a section of a reverse-slip fault of high frequency and high noise.",
+        "this image represents a 2D subsurface model of a reverse fault."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_high_noise"
+    ]
+}

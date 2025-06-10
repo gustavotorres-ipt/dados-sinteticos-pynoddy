@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section. It has a structural compression.",
+        "we observe here a subsurface model. It has a fold."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic image with a structural discontinuity dipping east. It has low frequency and high noise.",
+        "this depicts a subsurface model of a geologic rigid deformation dipping right."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

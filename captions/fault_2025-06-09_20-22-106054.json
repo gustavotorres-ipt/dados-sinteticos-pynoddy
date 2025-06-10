@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic image. It has a rigid deformation known or fault.",
+        "this image represents a subsurface model with a tectonic deformation dipping east."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

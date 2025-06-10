@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a subsurface representation. It has a fault dipping east.",
+        "this image represents a sesimic section. It has a dip-slip fault dipping east. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_high_noise"
+    ]
+}

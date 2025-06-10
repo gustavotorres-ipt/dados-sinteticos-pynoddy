@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D section. It has a tectonic compression. It has low frequency and low noise.",
+        "this depicts a 2D subsurface model. It has a structural compression. It is low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

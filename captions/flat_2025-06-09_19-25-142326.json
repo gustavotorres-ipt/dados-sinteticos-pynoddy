@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a seismic image. It is a model with no structural deformation.",
+        "this depicts a seismic image of a section with flat horizons.",
+        "we see here a section of a layer-cake model."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

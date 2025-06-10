@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we observe here a sesimic section of a horizons displacement along fault.",
+        "this image represents a sesimic section. It is a tectonic fault.",
+        "we observe here a model of a dip-slip fault. It has low frequency and low noise.",
+        "we see here a 2D subsurface model with a dip-slip fault dipping west.",
+        "a sesimic section of a horizons displacement along fault of low frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

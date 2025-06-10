@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a seismic model. It has a reverse tectonics.",
+        "we see here a sesimic section. It is a compressional tectonic settings of high frequency and low noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_low_noise"
+    ]
+}

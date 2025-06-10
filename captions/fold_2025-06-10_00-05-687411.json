@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a subsurface model. It has an anticline.",
+        "a 2D section with a tectonic compression of high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

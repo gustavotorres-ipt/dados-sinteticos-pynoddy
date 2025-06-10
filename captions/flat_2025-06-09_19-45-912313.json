@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a section with a section with flat horizons.",
+        "this image demonstrates a 2D section. It is a model with no tectonic deformation. It has high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

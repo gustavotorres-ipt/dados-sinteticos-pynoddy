@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a sesimic section of a model with no structural deformation.",
+        "a model. It has a model with no structural deformation. It has low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

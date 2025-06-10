@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a seismic model with an anticline with low frequency and low noise.",
+        "this image demonstrates a subsurface representation of a ductile deformation with low frequency and low noise.",
+        "we observe here a subsurface representation with a folded deformation with low frequency and low noise.",
+        "a 2D subsurface model. It has an antiform. It is low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

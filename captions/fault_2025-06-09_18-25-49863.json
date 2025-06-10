@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a section with a fault. It has high frequency and low noise.",
+        "we observe here a 2D section with a dip-slip fault of high frequency and low noise.",
+        "this image demonstrates a subsurface model. It is a tectonic fault with high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a section. It has a flat bed stratigraphy section.",
+        "we see here a model. It has an undeformed section. It has low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

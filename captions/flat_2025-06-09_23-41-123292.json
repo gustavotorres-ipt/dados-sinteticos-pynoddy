@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a sesimic section with a layer-cake stratigraphy section. It is high frequency and high noise.",
+        "we observe here a section. It is a section with flat horizons of high frequency and high noise.",
+        "this image represents a model with a model with no structural deformation.",
+        "we see here a subsurface model. It is a layer-cake stratigraphy section of high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

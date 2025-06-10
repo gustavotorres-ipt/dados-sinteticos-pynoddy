@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section with a model with no tectonic deformation. It has low frequency and high noise.",
+        "this image represents a seismic model. It is a layer-cake structural model with low frequency and high noise.",
+        "this image demonstrates a 2D subsurface model. It has a section with flat horizons.",
+        "a model. It has a layer-cake model with low frequency and high noise.",
+        "this image represents a 2D section. It has a flat bed stratigraphy section.",
+        "this image represents a 2D subsurface model. It has a model with no structural deformation. It has low frequency and high noise.",
+        "we observe here a subsurface representation. It has a model with no structural deformation."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

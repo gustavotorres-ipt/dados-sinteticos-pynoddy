@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a sesimic section with an anticline. It has high frequency and high noise.",
+        "this image represents a 2D subsurface model of a folded deformation. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a subsurface model. It has a folded deformation.",
+        "a seismic model. It has an antiform. It is low frequency and low noise.",
+        "we observe here a subsurface representation. It has a folded deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

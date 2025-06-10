@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a model. It is a subsurface layer rotation. It has high frequency and high noise.",
+        "this image represents a sesimic section. It is a tilt."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a seismic image of a rigid deformation known or fault.",
+        "this image represents a 2D section. It is a tectonic fault of low frequency and low noise.",
+        "this image represents a model. It is a structural discontinuity dipping right."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

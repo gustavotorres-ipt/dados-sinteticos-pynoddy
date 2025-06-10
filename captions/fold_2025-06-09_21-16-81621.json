@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "a sesimic section of a structural compression.",
+        "this image demonstrates a section with a tectonic compression.",
+        "this image demonstrates a 2D seismic model of an antiform of low frequency and high noise.",
+        "a sesimic section. It is a tectonic compression.",
+        "this depicts a subsurface representation. It is a fold.",
+        "we observe here a seismic model. It is a fold. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

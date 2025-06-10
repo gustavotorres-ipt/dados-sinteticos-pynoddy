@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this depicts a seismic image with an antiform. It is high frequency and high noise.",
+        "we observe here a model of an antiform.",
+        "a seismic model with a folded deformation. It has high frequency and high noise.",
+        "we observe here a model. It is a folded deformation.",
+        "this image demonstrates a section of a tectonic compression with high frequency and high noise.",
+        "we see here a seismic model with a ductile deformation with high frequency and high noise.",
+        "we see here a section with a structural compression. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

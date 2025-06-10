@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a model of a tectonic compression. It has high frequency and high noise.",
+        "we observe here a model. It is a ductile deformation.",
+        "we observe here a 2D subsurface model. It is a structural compression with high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

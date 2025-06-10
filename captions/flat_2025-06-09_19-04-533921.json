@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we observe here a 2D subsurface model. It has a layer-cake model with low frequency and high noise.",
+        "we see here a model. It has a section with flat horizons.",
+        "a 2D subsurface model. It has a flat bed stratigraphy section with low frequency and high noise.",
+        "this image represents a section. It is a flat bed stratigraphy section with low frequency and high noise.",
+        "this depicts a model with a flat bed stratigraphy section. It is low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

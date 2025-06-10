@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a model with a structural discontinuity.",
+        "this image represents a model. It has a tectonic deformation dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

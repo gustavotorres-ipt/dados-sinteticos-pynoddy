@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a model of a subsurface layer rotation.",
+        "a seismic model of a tilt."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

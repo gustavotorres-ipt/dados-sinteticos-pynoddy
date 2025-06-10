@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a 2D subsurface model. It is a tectonic deformation. It has low frequency and low noise.",
+        "this image represents a seismic image. It is a structural deformation dipping right."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

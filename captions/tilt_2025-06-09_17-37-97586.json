@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we observe here a model with a tilt of low frequency and low noise.",
+        "a 2D subsurface model. It has a subsurface layer rotation.",
+        "a subsurface model of a subsurface layer rotation. It has low frequency and low noise.",
+        "we see here a seismic image with a tilt.",
+        "this depicts a sesimic section. It has a tilt with low frequency and low noise.",
+        "this image demonstrates a 2D seismic model with a tilt.",
+        "this image demonstrates a 2D section of a subsurface layer rotation."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D section. It has a model with no structural deformation.",
+        "a subsurface model of a flat bed stratigraphy section."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

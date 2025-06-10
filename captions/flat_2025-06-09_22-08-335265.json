@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a section of a flat bed stratigraphy section with high frequency and high noise.",
+        "this depicts a sesimic section of an undeformed section with high frequency and high noise.",
+        "a subsurface model with an undeformed section.",
+        "this image demonstrates a 2D section of an undeformed section.",
+        "this image represents a section. It has a section with flat horizons."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

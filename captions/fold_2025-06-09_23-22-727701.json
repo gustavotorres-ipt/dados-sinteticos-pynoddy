@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a sesimic section. It has a tectonic compression.",
+        "this image demonstrates a subsurface model with a structural compression of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

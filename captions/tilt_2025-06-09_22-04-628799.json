@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a 2D section. It is an inclined horizontal beds with low frequency and low noise.",
+        "this image demonstrates a model of a tilted horizontal beds.",
+        "this image demonstrates a 2D subsurface model. It is a tilt."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

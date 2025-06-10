@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we see here a seismic image. It is a subsurface layer rotation.",
+        "we observe here a subsurface representation. It is a subsurface layer rotation.",
+        "this depicts a sesimic section. It has a tilted horizontal beds with high frequency and low noise.",
+        "this image demonstrates a seismic image. It is a tilted horizontal beds.",
+        "this image represents a sesimic section. It is a tilt. It has high frequency and low noise.",
+        "we see here a section with an inclined horizontal beds with high frequency and low noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

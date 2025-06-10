@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we see here a 2D section. It has a tectonic compression.",
+        "this image represents a model with a ductile deformation.",
+        "a seismic image with a structural compression.",
+        "this depicts a 2D subsurface model. It has an anticline."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

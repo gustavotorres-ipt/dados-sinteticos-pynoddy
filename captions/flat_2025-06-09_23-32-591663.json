@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a section of a model with no structural deformation with low frequency and low noise.",
+        "this depicts a seismic image with a section with flat horizons.",
+        "this depicts a seismic image. It has a model with no tectonic deformation."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

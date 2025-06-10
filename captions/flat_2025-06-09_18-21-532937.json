@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a section. It is a section with flat horizons.",
+        "a subsurface representation. It is an undeformed section. It has low frequency and high noise.",
+        "this image demonstrates a section. It has a layer-cake model of low frequency and high noise.",
+        "this depicts a model of a layer-cake structural model."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a model with a flat bed stratigraphy section. It is high frequency and low noise.",
+        "we see here a 2D section with a model with no structural deformation with high frequency and low noise."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

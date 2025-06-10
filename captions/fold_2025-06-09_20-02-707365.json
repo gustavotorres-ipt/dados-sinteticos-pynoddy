@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a 2D section with an anticline. It has high frequency and low noise.",
+        "we see here a seismic model. It has a fold."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

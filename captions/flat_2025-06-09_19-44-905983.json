@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a seismic image. It has a layer-cake model of low frequency and high noise.",
+        "this image demonstrates a section of a layer-cake stratigraphy section. It has low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

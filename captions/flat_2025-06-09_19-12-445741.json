@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic image of a model with no tectonic deformation.",
+        "this depicts a subsurface representation. It has a layer-cake model of high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

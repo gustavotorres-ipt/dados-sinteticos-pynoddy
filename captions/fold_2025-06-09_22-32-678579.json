@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a seismic model with a fold. It is low frequency and high noise.",
+        "this image demonstrates a 2D subsurface model of an anticline. It is low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

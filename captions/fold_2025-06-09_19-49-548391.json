@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we see here a model. It has an antiform. It has high frequency and high noise.",
+        "we see here a 2D section of an antiform.",
+        "a sesimic section of a structural compression of high frequency and high noise.",
+        "this image demonstrates a section of a fold.",
+        "a subsurface model with an anticline with high frequency and high noise.",
+        "this image demonstrates a section. It has an anticline. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

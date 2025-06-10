@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we observe here a sesimic section of a ductile deformation.",
+        "we see here a 2D section. It has an anticline with high frequency and high noise.",
+        "this depicts a subsurface representation with an anticline. It has high frequency and high noise.",
+        "this image demonstrates a subsurface model. It has an anticline.",
+        "we observe here a 2D subsurface model. It has a folded deformation. It has high frequency and high noise.",
+        "we observe here a sesimic section of a fold.",
+        "this depicts a sesimic section of a folded deformation. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

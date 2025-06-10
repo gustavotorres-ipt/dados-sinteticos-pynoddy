@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a 2D section. It has a fault.",
+        "we observe here a subsurface model with a structural discontinuity dipping east. It has low frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_low_noise"
+    ]
+}

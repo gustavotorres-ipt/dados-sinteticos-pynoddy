@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a sesimic section of a tilted horizontal beds. It has high frequency and low noise.",
+        "this image represents a 2D section. It is a subsurface layer rotation with high frequency and low noise."
+    ],
+    "labels": [
+        "tilt_high_frequency_low_noise"
+    ]
+}

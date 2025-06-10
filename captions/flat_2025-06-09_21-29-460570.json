@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we observe here a 2D section of a section with flat horizons.",
+        "this depicts a seismic image. It is a section with flat horizons.",
+        "we see here a 2D section with a layer-cake model of low frequency and high noise.",
+        "we observe here a seismic image. It has a section with flat horizons with low frequency and high noise.",
+        "this depicts a seismic model with a model with no tectonic deformation.",
+        "this depicts a section. It has a model with no tectonic deformation. It is low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

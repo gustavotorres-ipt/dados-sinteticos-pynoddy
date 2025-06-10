@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a section. It is an antiform.",
+        "this image represents a seismic model. It has an antiform with low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

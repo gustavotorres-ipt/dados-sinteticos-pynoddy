@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a subsurface model of a tectonic compression.",
+        "this depicts a seismic model. It is a structural compression.",
+        "we see here a model with a structural compression.",
+        "this image represents a sesimic section. It is a tectonic compression."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

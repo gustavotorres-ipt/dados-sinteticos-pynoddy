@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a subsurface model. It is an anticline. It has high frequency and low noise.",
+        "this depicts a model. It has a fold of high frequency and low noise.",
+        "we see here a seismic image. It has a ductile deformation.",
+        "a seismic image. It is an antiform of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

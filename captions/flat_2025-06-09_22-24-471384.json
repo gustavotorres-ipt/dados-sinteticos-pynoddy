@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "a subsurface model. It is a section with flat horizons.",
+        "a section with a section with flat horizons. It has high frequency and low noise.",
+        "we see here a sesimic section of a model with no structural deformation.",
+        "this image represents a subsurface model. It is an undeformed section of high frequency and low noise.",
+        "this image represents a 2D subsurface model with an undeformed section with high frequency and low noise."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

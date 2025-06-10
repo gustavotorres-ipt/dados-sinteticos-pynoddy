@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this depicts a model. It has a model with no structural deformation.",
+        "we see here a 2D seismic model of a layer-cake structural model. It has high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

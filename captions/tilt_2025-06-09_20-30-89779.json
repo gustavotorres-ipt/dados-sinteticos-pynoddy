@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this image represents a sesimic section. It is a tilted horizontal beds with low frequency and high noise.",
+        "this depicts a 2D section. It has an inclined horizontal beds.",
+        "we see here a seismic model with an inclined horizontal beds.",
+        "a section with a subsurface layer rotation.",
+        "this image demonstrates a sesimic section with an inclined horizontal beds.",
+        "we observe here a seismic model. It is a tilt.",
+        "a 2D seismic model. It has a tectonic tilting of low frequency and high noise."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

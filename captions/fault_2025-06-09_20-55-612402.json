@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a subsurface model of a horizons displacement along fault. It is high frequency and low noise.",
+        "we observe here a section of a tectonic deformation. It is high frequency and low noise.",
+        "a 2D seismic model. It is a horizons displacement along fault.",
+        "a seismic model. It has a dip-slip fault. It has high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_low_noise"
+    ]
+}

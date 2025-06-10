@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we see here a 2D section with a compressional fault.",
+        "this image demonstrates a 2D section with a compressional tectonics dipping east.",
+        "this image demonstrates a section of a compressional tectonics.",
+        "we see here a sesimic section with a reverse fault with high frequency and low noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_high_frequency_low_noise"
+    ]
+}

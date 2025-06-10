@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a sesimic section of a ductile deformation.",
+        "we see here a section of a structural compression.",
+        "we observe here a seismic image with an anticline. It has high frequency and high noise.",
+        "this depicts a sesimic section with a structural compression. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

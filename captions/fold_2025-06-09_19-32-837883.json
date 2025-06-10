@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a seismic model. It is an anticline. It is high frequency and low noise.",
+        "this depicts a 2D seismic model. It has an anticline.",
+        "this image demonstrates a seismic image of a tectonic compression. It has high frequency and low noise.",
+        "we see here a seismic image. It has a tectonic compression of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

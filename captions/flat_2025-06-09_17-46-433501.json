@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we see here a subsurface model. It is an undeformed section.",
+        "we see here a seismic model. It is a layer-cake model.",
+        "this image demonstrates a subsurface representation. It is a layer-cake model.",
+        "this image represents a section of a layer-cake model.",
+        "a seismic model. It is an undeformed section. It is high frequency and high noise.",
+        "this image represents a 2D section with a layer-cake model.",
+        "we observe here a sesimic section with a layer-cake stratigraphy section."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we observe here a subsurface representation with a structural deformation of low frequency and high noise.",
+        "we see here a subsurface representation with a rigid deformation known or fault of low frequency and high noise.",
+        "this image represents a subsurface representation. It is a structural deformation dipping left. It has low frequency and high noise.",
+        "we observe here a model. It has a dip-slip fault dipping west of low frequency and high noise.",
+        "a sesimic section with a fault dipping left.",
+        "we observe here a section with a structural discontinuity dipping west. It is low frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

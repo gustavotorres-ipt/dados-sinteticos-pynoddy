@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a subsurface model. It is a model with no tectonic deformation with low frequency and high noise.",
+        "a model of an undeformed section with low frequency and high noise.",
+        "a subsurface representation of an undeformed section. It has low frequency and high noise.",
+        "this image demonstrates a section. It has an undeformed section with low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

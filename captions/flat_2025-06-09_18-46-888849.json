@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this depicts a section with a model with no tectonic deformation. It has high frequency and high noise.",
+        "this depicts a subsurface model with a model with no structural deformation. It has high frequency and high noise.",
+        "this image demonstrates a model with a layer-cake structural model.",
+        "this image demonstrates a seismic image of a layer-cake model. It is high frequency and high noise.",
+        "this image represents a subsurface model. It is a layer-cake model.",
+        "we observe here a sesimic section. It has a layer-cake model of high frequency and high noise.",
+        "we see here a model. It is a layer-cake model. It is high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

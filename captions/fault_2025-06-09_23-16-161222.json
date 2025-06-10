@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "a 2D subsurface model of a tectonic fault dipping left.",
+        "a 2D seismic model. It has a structural discontinuity of high frequency and high noise.",
+        "this image represents a section. It is a tectonic fault with high frequency and high noise.",
+        "this depicts a section. It is a dip-slip fault dipping left of high frequency and high noise.",
+        "a 2D subsurface model. It is a rigid deformation known or fault dipping west.",
+        "this depicts a sesimic section. It is a tectonic deformation.",
+        "a model. It has a fault dipping left. It has high frequency and high noise."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_high_noise"
+    ]
+}

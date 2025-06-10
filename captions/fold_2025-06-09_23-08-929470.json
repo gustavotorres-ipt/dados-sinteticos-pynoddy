@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D subsurface model. It is a structural compression. It is low frequency and low noise.",
+        "we see here a sesimic section. It has a folded deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

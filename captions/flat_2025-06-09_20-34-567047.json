@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a subsurface representation. It has a flat bed stratigraphy section.",
+        "this image represents a subsurface model. It is a flat bed stratigraphy section.",
+        "this image represents a model with a flat bed stratigraphy section."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

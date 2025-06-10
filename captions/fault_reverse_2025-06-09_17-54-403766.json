@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a 2D subsurface model of a reverse-slip fault. It has low frequency and high noise.",
+        "this image represents a seismic model of a movement dipping west.",
+        "this depicts a 2D section. It has a reverse-slip fault dipping west."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_high_noise"
+    ]
+}

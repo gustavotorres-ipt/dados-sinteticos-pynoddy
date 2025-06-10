@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a seismic image. It has a model with no structural deformation of low frequency and low noise.",
+        "this image demonstrates a seismic image with a model with no structural deformation of low frequency and low noise.",
+        "we observe here a seismic model of a model with no tectonic deformation. It is low frequency and low noise.",
+        "we observe here a model with a layer-cake model. It has low frequency and low noise."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

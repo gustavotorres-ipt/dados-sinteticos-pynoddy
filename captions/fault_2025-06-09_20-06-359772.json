@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a seismic model with a structural deformation with low frequency and low noise.",
+        "this depicts a 2D section of a tectonic fault dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

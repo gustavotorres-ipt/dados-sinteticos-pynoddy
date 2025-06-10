@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a subsurface representation. It has a downward tectonic.",
+        "this depicts a subsurface representation of a compressional fault of low frequency and high noise.",
+        "this depicts a 2D section. It is a compressional fault dipping left with low frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_high_noise"
+    ]
+}

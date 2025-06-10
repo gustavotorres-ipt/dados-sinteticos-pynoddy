@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a section. It is a reverse tectonics dipping east. It is low frequency and high noise.",
+        "this image demonstrates a 2D subsurface model of a movement dipping east of low frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_low_frequency_high_noise"
+    ]
+}

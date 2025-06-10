@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image demonstrates a seismic model of a structural deformation dipping west.",
+        "a sesimic section. It has a horizons displacement along fault dipping left."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

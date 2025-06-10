@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a 2D section. It is a rigid deformation known or fault dipping west with high frequency and low noise.",
+        "this image demonstrates a subsurface representation. It is a structural discontinuity."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_low_noise"
+    ]
+}

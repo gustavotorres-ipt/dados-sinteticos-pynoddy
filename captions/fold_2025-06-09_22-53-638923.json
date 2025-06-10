@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D subsurface model. It has a ductile deformation of low frequency and high noise.",
+        "this image demonstrates a seismic image with an antiform."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

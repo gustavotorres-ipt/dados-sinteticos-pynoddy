@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "we see here a subsurface model. It has a layer-cake structural model.",
+        "a section of an undeformed section of low frequency and low noise.",
+        "this depicts a subsurface representation. It is an undeformed section.",
+        "we observe here a sesimic section of a section with flat horizons. It is low frequency and low noise.",
+        "this image demonstrates a model with a section with flat horizons with low frequency and low noise.",
+        "this image represents a section with a flat bed stratigraphy section."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

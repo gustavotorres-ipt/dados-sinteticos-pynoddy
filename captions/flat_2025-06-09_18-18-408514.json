@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a subsurface model with a layer-cake model.",
+        "a seismic model. It has a layer-cake structural model. It has low frequency and low noise.",
+        "this depicts a subsurface representation. It has a model with no structural deformation.",
+        "a 2D section with a layer-cake model.",
+        "this depicts a 2D subsurface model. It is a layer-cake structural model."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

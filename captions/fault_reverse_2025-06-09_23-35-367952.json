@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a 2D subsurface model. It has a compressional tectonic settings with high frequency and high noise.",
+        "we observe here a subsurface representation with a reverse tectonics dipping west."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_high_frequency_high_noise"
+    ]
+}

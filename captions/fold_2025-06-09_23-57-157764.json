@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a section. It is a folded deformation. It has high frequency and low noise.",
+        "a seismic model. It is a ductile deformation. It has high frequency and low noise.",
+        "we observe here a model. It is a tectonic compression.",
+        "we see here a model with an antiform of high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

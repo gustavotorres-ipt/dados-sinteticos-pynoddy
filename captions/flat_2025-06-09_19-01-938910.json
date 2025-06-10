@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a seismic model of a layer-cake stratigraphy section with low frequency and high noise.",
+        "this image demonstrates a sesimic section of a section with flat horizons with low frequency and high noise.",
+        "we observe here a subsurface model of a model with no tectonic deformation of low frequency and high noise.",
+        "a seismic model with a layer-cake stratigraphy section.",
+        "we observe here a subsurface representation. It has a model with no structural deformation."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

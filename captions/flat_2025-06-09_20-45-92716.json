@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we see here a seismic image of a section with flat horizons of high frequency and low noise.",
+        "this image demonstrates a seismic image with a layer-cake model.",
+        "this image represents a 2D section. It is a layer-cake structural model with high frequency and low noise."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

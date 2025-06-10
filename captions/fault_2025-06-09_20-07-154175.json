@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we observe here a seismic image. It has a dip-slip fault dipping left with low frequency and high noise.",
+        "we observe here a section. It is a rigid deformation known or fault.",
+        "this depicts a subsurface model of a structural discontinuity dipping west.",
+        "this image demonstrates a sesimic section. It is a fault dipping west.",
+        "we see here a seismic model. It has a tectonic fault.",
+        "this image demonstrates a 2D section. It has a fault. It is low frequency and high noise.",
+        "this depicts a seismic image. It is a tectonic deformation dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

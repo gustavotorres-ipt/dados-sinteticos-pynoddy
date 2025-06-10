@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "this image represents a subsurface representation with a horizons displacement along fault. It is high frequency and low noise.",
+        "a 2D subsurface model with a geologic rigid deformation of high frequency and low noise.",
+        "this image represents a subsurface representation with a horizons displacement along fault with high frequency and low noise.",
+        "we observe here a 2D section of a structural discontinuity.",
+        "this image demonstrates a 2D section of a structural deformation dipping right.",
+        "this image demonstrates a subsurface representation. It is a structural deformation. It is high frequency and low noise.",
+        "this image represents a sesimic section with a rigid deformation known or fault."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

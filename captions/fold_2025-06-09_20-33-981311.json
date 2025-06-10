@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this depicts a subsurface model. It has a ductile deformation.",
+        "this depicts a subsurface model. It is a fold. It has high frequency and high noise.",
+        "this image represents a seismic model. It is a structural compression. It has high frequency and high noise.",
+        "this image demonstrates a section. It has an antiform.",
+        "we observe here a model with a fold with high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

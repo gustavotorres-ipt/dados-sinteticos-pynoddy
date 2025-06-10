@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a seismic image. It is a structural compression. It has high frequency and high noise.",
+        "a seismic image of a structural compression.",
+        "this image demonstrates a seismic image. It has a structural compression with high frequency and high noise."
+    ],
+    "labels": [
+        "fold_high_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a sesimic section. It has a structural compression.",
+        "a sesimic section. It is a folded deformation of low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

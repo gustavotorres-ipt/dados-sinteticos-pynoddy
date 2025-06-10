@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a sesimic section of a section with flat horizons.",
+        "this image demonstrates a subsurface representation of a layer-cake model.",
+        "we see here a sesimic section. It is an undeformed section.",
+        "this depicts a 2D subsurface model with a model with no structural deformation with high frequency and low noise.",
+        "we see here a model of a layer-cake structural model."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

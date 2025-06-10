@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we see here a section. It is a fault. It has high frequency and low noise.",
+        "this depicts a seismic image. It is a structural deformation. It is high frequency and low noise.",
+        "this depicts a sesimic section with a structural deformation dipping right of high frequency and low noise.",
+        "we observe here a subsurface model. It has a geologic rigid deformation dipping east with high frequency and low noise."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

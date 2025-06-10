@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a seismic image of an undeformed section. It is low frequency and low noise.",
+        "we observe here a 2D subsurface model. It is a section with flat horizons.",
+        "a subsurface model. It is a layer-cake model."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

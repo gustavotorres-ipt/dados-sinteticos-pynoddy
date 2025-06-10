@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a model of a tilted horizontal beds.",
+        "we see here a subsurface model with a subsurface layer rotation. It has low frequency and high noise.",
+        "this image demonstrates a subsurface representation with a subsurface layer rotation."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

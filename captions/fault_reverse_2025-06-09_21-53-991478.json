@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "this image demonstrates a seismic model of a movement.",
+        "a 2D section with a downward tectonic dipping right.",
+        "this depicts a model of a compressional tectonic settings.",
+        "a section of a compressional tectonics dipping right.",
+        "this depicts a seismic image. It is a movement.",
+        "we observe here a 2D subsurface model of a reverse tectonics dipping east."
+    ],
+    "labels": [
+        "fault_reverse_dipping_east_low_frequency_high_noise"
+    ]
+}

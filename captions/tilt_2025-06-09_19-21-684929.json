@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D section with a tilt.",
+        "this image demonstrates a sesimic section. It is an inclined horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a seismic model with a fold.",
+        "this depicts a model. It has an antiform. It is low frequency and low noise."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

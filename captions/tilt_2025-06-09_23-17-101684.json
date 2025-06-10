@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this depicts a subsurface model. It is a tilted horizontal beds.",
+        "we see here a model of a tilted horizontal beds.",
+        "this image demonstrates a subsurface representation. It is a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

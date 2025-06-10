@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D subsurface model. It is a tectonic deformation dipping right.",
+        "this depicts a section. It is a fault."
+    ],
+    "labels": [
+        "fault_dipping_east_low_frequency_high_noise"
+    ]
+}

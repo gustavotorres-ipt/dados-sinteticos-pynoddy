@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a sesimic section. It has a ductile deformation.",
+        "this depicts a seismic model of a structural compression.",
+        "this image demonstrates a 2D seismic model. It is a structural compression with low frequency and high noise.",
+        "we observe here a subsurface representation of a folded deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

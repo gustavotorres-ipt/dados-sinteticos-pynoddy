@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a sesimic section. It is a structural compression with low frequency and high noise.",
+        "this image represents a subsurface representation. It is a structural compression.",
+        "this image demonstrates a sesimic section with a folded deformation. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

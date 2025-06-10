@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we see here a subsurface representation of an undeformed section with low frequency and high noise.",
+        "this depicts a seismic model with a section with flat horizons with low frequency and high noise.",
+        "a sesimic section with a flat bed stratigraphy section.",
+        "we observe here a seismic image of an undeformed section.",
+        "we observe here a section with a model with no tectonic deformation."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

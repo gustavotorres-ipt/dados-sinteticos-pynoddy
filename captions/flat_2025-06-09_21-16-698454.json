@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a subsurface model. It is a layer-cake model.",
+        "this image demonstrates a sesimic section. It is a layer-cake model.",
+        "this image demonstrates a subsurface model. It has a section with flat horizons.",
+        "we observe here a model. It has a layer-cake structural model."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a seismic image with a tectonic compression.",
+        "a section. It is an antiform.",
+        "we see here a seismic model. It is a tectonic compression.",
+        "we observe here a seismic model. It is an antiform. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

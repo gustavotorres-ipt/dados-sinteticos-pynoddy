@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a seismic image with a fold with low frequency and high noise.",
+        "a section. It is an anticline.",
+        "this image demonstrates a model of an antiform. It has low frequency and high noise."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

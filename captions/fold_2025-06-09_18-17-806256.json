@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a 2D section. It has an antiform.",
+        "a subsurface representation. It is a tectonic compression.",
+        "a model. It is a tectonic compression.",
+        "this depicts a 2D section. It is a structural compression. It has high frequency and low noise."
+    ],
+    "labels": [
+        "fold_high_frequency_low_noise"
+    ]
+}

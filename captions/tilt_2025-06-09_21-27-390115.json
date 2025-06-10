@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "a 2D section with a subsurface layer rotation.",
+        "a seismic model. It has a tectonic tilting. It has high frequency and high noise.",
+        "this image demonstrates a seismic model. It has a subsurface layer rotation.",
+        "we observe here a subsurface model of a tilt.",
+        "we observe here a 2D subsurface model. It has a tilt."
+    ],
+    "labels": [
+        "tilt_high_frequency_high_noise"
+    ]
+}

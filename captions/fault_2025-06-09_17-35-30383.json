@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "we observe here a 2D subsurface model. It has a structural deformation dipping west. It is low frequency and high noise.",
+        "we observe here a subsurface representation. It is a structural discontinuity dipping west.",
+        "we see here a seismic image with a fault dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_high_noise"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "we see here a subsurface model. It is a dip-slip fault dipping east. It is high frequency and low noise.",
+        "this image demonstrates a model with a tectonic fault dipping right.",
+        "we observe here a seismic model. It is a geologic rigid deformation dipping east. It has high frequency and low noise.",
+        "this image represents a subsurface representation. It has a dip-slip fault of high frequency and low noise.",
+        "this image represents a seismic image with a fault dipping east."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

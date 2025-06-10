@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "a subsurface representation. It has a tectonic fault.",
+        "this image demonstrates a model. It has a geologic rigid deformation dipping left. It has high frequency and low noise.",
+        "this image demonstrates a seismic image. It is a fault of high frequency and low noise.",
+        "this image represents a subsurface representation. It has a tectonic fault dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_low_noise"
+    ]
+}

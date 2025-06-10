@@ -1,0 +1,14 @@
+{
+    "captions": [
+        "we see here a subsurface model with an undeformed section. It has high frequency and high noise.",
+        "this depicts a subsurface representation with a layer-cake stratigraphy section with high frequency and high noise.",
+        "this image demonstrates a 2D seismic model. It is a model with no tectonic deformation. It has high frequency and high noise.",
+        "this depicts a 2D seismic model. It is a model with no structural deformation.",
+        "this image demonstrates a subsurface model with a model with no structural deformation. It is high frequency and high noise.",
+        "a subsurface representation. It is an undeformed section.",
+        "this depicts a seismic model. It has a model with no structural deformation. It has high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

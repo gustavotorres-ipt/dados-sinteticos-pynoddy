@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we observe here a seismic model of a dip-slip fault dipping right.",
+        "a model of a tectonic fault with high frequency and low noise.",
+        "we observe here a section of a fault of high frequency and low noise.",
+        "a sesimic section with a horizons displacement along fault dipping east."
+    ],
+    "labels": [
+        "fault_dipping_east_high_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image represents a 2D subsurface model of a structural compression.",
+        "we observe here a subsurface representation. It has a folded deformation.",
+        "this image demonstrates a seismic model. It is a structural compression of low frequency and high noise.",
+        "this image demonstrates a 2D subsurface model of an antiform."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

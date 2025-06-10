@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image demonstrates a subsurface model. It has an undeformed section with low frequency and high noise.",
+        "a sesimic section of a layer-cake structural model with low frequency and high noise.",
+        "we see here a section. It has an undeformed section."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

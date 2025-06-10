@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a model with a folded deformation of low frequency and high noise.",
+        "a seismic model. It has a structural compression. It is low frequency and high noise.",
+        "this depicts a model. It has a folded deformation. It has low frequency and high noise.",
+        "this image represents a seismic image. It is a ductile deformation."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

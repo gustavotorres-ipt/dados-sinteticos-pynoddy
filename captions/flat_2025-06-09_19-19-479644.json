@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this image demonstrates a 2D subsurface model with an undeformed section.",
+        "this image represents a 2D subsurface model. It is a flat bed stratigraphy section.",
+        "this image represents a subsurface representation. It is a layer-cake stratigraphy section.",
+        "this depicts a subsurface model. It is a layer-cake model. It is low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

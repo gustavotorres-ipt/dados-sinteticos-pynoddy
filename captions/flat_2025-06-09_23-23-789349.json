@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "a 2D seismic model. It is an undeformed section with high frequency and high noise.",
+        "a subsurface representation. It is an undeformed section of high frequency and high noise."
+    ],
+    "labels": [
+        "flat_high_frequency_high_noise"
+    ]
+}

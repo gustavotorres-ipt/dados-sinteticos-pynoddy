@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "a section. It is a reverse fault.",
+        "we see here a model of a downward tectonic.",
+        "we see here a subsurface representation with a downward tectonic dipping left with low frequency and high noise."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_low_frequency_high_noise"
+    ]
+}

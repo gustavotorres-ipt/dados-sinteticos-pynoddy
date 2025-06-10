@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "we see here a 2D section. It is an inclined horizontal beds.",
+        "we see here a seismic model of a tilt.",
+        "we see here a section of a tectonic tilting with low frequency and low noise.",
+        "this image demonstrates a seismic model with a tilted horizontal beds."
+    ],
+    "labels": [
+        "tilt_low_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we observe here a sesimic section. It has a downward tectonic of high frequency and high noise.",
+        "this image demonstrates a sesimic section with a compressional fault dipping left."
+    ],
+    "labels": [
+        "fault_reverse_dipping_west_high_frequency_high_noise"
+    ]
+}

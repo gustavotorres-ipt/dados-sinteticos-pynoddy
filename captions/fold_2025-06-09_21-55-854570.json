@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a seismic image. It is an anticline.",
+        "this image represents a subsurface representation. It is a folded deformation.",
+        "we see here a subsurface representation. It has a tectonic compression.",
+        "this image represents a seismic image. It has a ductile deformation with low frequency and high noise.",
+        "this image demonstrates a seismic image with an anticline."
+    ],
+    "labels": [
+        "fold_low_frequency_high_noise"
+    ]
+}

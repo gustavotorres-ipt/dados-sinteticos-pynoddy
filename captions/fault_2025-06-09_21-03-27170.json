@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "we see here a subsurface representation. It has a horizons displacement along fault dipping west. It is low frequency and low noise.",
+        "this depicts a section with a tectonic deformation dipping west."
+    ],
+    "labels": [
+        "fault_dipping_west_low_frequency_low_noise"
+    ]
+}

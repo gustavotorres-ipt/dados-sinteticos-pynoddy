@@ -1,0 +1,10 @@
+{
+    "captions": [
+        "this image represents a subsurface model. It is a model with no structural deformation.",
+        "we observe here a 2D section. It has an undeformed section.",
+        "we observe here a subsurface model. It is a model with no structural deformation of low frequency and low noise."
+    ],
+    "labels": [
+        "flat_low_frequency_low_noise"
+    ]
+}

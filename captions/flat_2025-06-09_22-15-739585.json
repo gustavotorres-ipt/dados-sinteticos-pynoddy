@@ -1,0 +1,13 @@
+{
+    "captions": [
+        "this depicts a 2D section. It is an undeformed section.",
+        "this depicts a sesimic section. It is a model with no tectonic deformation of high frequency and low noise.",
+        "this image demonstrates a seismic model of an undeformed section.",
+        "we observe here a subsurface representation. It has a layer-cake model.",
+        "a seismic model. It has a flat bed stratigraphy section.",
+        "we see here a model of an undeformed section."
+    ],
+    "labels": [
+        "flat_high_frequency_low_noise"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "captions": [
+        "this image demonstrates a sesimic section. It is a structural compression.",
+        "we observe here a section. It has a folded deformation of low frequency and low noise.",
+        "this image represents a model with a folded deformation. It has low frequency and low noise.",
+        "we see here a model. It is an anticline.",
+        "we observe here a seismic image. It is a fold."
+    ],
+    "labels": [
+        "fold_low_frequency_low_noise"
+    ]
+}

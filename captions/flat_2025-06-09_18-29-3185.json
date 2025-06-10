@@ -1,0 +1,11 @@
+{
+    "captions": [
+        "this depicts a 2D section. It has a model with no structural deformation.",
+        "we observe here a 2D subsurface model of a layer-cake structural model.",
+        "a model. It is a model with no tectonic deformation.",
+        "a model of a layer-cake model of low frequency and high noise."
+    ],
+    "labels": [
+        "flat_low_frequency_high_noise"
+    ]
+}

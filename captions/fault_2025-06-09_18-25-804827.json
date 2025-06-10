@@ -1,0 +1,9 @@
+{
+    "captions": [
+        "this image represents a 2D subsurface model. It is a structural discontinuity dipping left.",
+        "this image demonstrates a 2D section. It has a horizons displacement along fault dipping left."
+    ],
+    "labels": [
+        "fault_dipping_west_high_frequency_high_noise"
+    ]
+}
